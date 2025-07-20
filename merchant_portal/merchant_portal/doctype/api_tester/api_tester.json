@@ -1,0 +1,68 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-05-05 10:47:10.624264",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "url",
+  "method",
+  "headers_json",
+  "payload_json",
+  "response_body"
+ ],
+ "fields": [
+  {
+   "fieldname": "url",
+   "fieldtype": "Data",
+   "label": "URL"
+  },
+  {
+   "default": "POST",
+   "fieldname": "method",
+   "fieldtype": "Select",
+   "label": "Method",
+   "options": "GET\nPOST\nPUT\nDELETE"
+  },
+  {
+   "fieldname": "response_body",
+   "fieldtype": "Text",
+   "label": "Response Body"
+  },
+  {
+   "default": "{ \"Content-Type\": \"application/json\" }",
+   "fieldname": "headers_json",
+   "fieldtype": "JSON",
+   "label": "Headers"
+  },
+  {
+   "fieldname": "payload_json",
+   "fieldtype": "JSON",
+   "label": "Payload"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2025-05-05 10:54:13.210103",
+ "modified_by": "Administrator",
+ "module": "Merchant Portal",
+ "name": "API Tester",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

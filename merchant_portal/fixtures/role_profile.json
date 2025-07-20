@@ -1,0 +1,230 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Role Profile",
+  "modified": "2024-09-16 08:35:52.856983",
+  "name": "Inventory",
+  "role_profile": "Inventory",
+  "roles": [
+   {
+    "parent": "Inventory",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Stock User"
+   },
+   {
+    "parent": "Inventory",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Stock Manager"
+   },
+   {
+    "parent": "Inventory",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Item Manager"
+   }
+  ]
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Role Profile",
+  "modified": "2024-09-16 08:35:52.865800",
+  "name": "Manufacturing",
+  "role_profile": "Manufacturing",
+  "roles": [
+   {
+    "parent": "Manufacturing",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Stock User"
+   },
+   {
+    "parent": "Manufacturing",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Manufacturing User"
+   },
+   {
+    "parent": "Manufacturing",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Manufacturing Manager"
+   }
+  ]
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Role Profile",
+  "modified": "2024-09-16 08:35:52.878354",
+  "name": "Sales",
+  "role_profile": "Sales",
+  "roles": [
+   {
+    "parent": "Sales",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Sales User"
+   },
+   {
+    "parent": "Sales",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Stock User"
+   },
+   {
+    "parent": "Sales",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Sales Manager"
+   }
+  ]
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Role Profile",
+  "modified": "2024-09-16 08:35:52.883942",
+  "name": "Purchase",
+  "role_profile": "Purchase",
+  "roles": [
+   {
+    "parent": "Purchase",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Item Manager"
+   },
+   {
+    "parent": "Purchase",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Stock User"
+   },
+   {
+    "parent": "Purchase",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Purchase User"
+   },
+   {
+    "parent": "Purchase",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Purchase Manager"
+   }
+  ]
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Role Profile",
+  "modified": "2024-11-12 19:34:11.789671",
+  "name": "Merchant Portal Commercial Officer",
+  "role_profile": "Merchant Portal Commercial Officer",
+  "roles": [
+   {
+    "parent": "Merchant Portal Commercial Officer",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Commercial  Officer"
+   }
+  ]
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Role Profile",
+  "modified": "2024-11-12 19:35:44.731371",
+  "name": "Merchant Portal Commercial Chief",
+  "role_profile": "Merchant Portal Commercial Chief",
+  "roles": [
+   {
+    "parent": "Merchant Portal Commercial Chief",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Commercial  Officer"
+   },
+   {
+    "parent": "Merchant Portal Commercial Chief",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Commercial Chief"
+   }
+  ]
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Role Profile",
+  "modified": "2024-11-12 19:36:34.691212",
+  "name": "Merchant Portal Head of Commercial",
+  "role_profile": "Merchant Portal Head of Commercial",
+  "roles": [
+   {
+    "parent": "Merchant Portal Head of Commercial",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Head of Commercial"
+   },
+   {
+    "parent": "Merchant Portal Head of Commercial",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Commercial  Officer"
+   },
+   {
+    "parent": "Merchant Portal Head of Commercial",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Commercial Chief"
+   }
+  ]
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Role Profile",
+  "modified": "2024-11-12 19:37:16.483920",
+  "name": "Merchant Portal Legal Officer",
+  "role_profile": "Merchant Portal Legal Officer",
+  "roles": [
+   {
+    "parent": "Merchant Portal Legal Officer",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Legal Officer"
+   }
+  ]
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Role Profile",
+  "modified": "2024-11-12 19:42:15.980622",
+  "name": "Merchant Portal Risk Team",
+  "role_profile": "Merchant Portal Risk Team",
+  "roles": [
+   {
+    "parent": "Merchant Portal Risk Team",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Risk Team"
+   }
+  ]
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Role Profile",
+  "modified": "2024-09-16 08:35:52.873016",
+  "name": "Accounts",
+  "role_profile": "Accounts",
+  "roles": [
+   {
+    "parent": "Accounts",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Accounts User"
+   },
+   {
+    "parent": "Accounts",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Accounts Manager"
+   }
+  ]
+ }
+]

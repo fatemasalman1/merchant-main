@@ -1,0 +1,758 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{company_name}-{commercial_register}-{####}",
+ "creation": "2024-09-19 08:37:47.608928",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "personal_information_section",
+  "status",
+  "company_name",
+  "first_name",
+  "last_name",
+  "iban",
+  "column_break_fafg",
+  "email_address",
+  "company_logo",
+  "registration_questionnaire",
+  "iban_number",
+  "column_break_lven",
+  "phone_number",
+  "company_link",
+  "user",
+  "temp_password",
+  "disabled",
+  "registed",
+  "uploaded",
+  "service_section",
+  "type_of_business",
+  "business_category",
+  "column_break_roee",
+  "service_type",
+  "sub_category",
+  "business_information_section",
+  "commercial_register",
+  "wathq_status",
+  "annual_sales",
+  "annual_sales_digit",
+  "commercial_register_status",
+  "column_break_ckgv",
+  "merchant_ticket_size",
+  "number_of_outlets",
+  "business_starting_date",
+  "business_starting_by_months",
+  "integration_q",
+  "co_markting_q",
+  "column_break_mmpi",
+  "active_zakat",
+  "zakat_attacment",
+  "active_vat",
+  "vat_attachment",
+  "mac_percentage",
+  "automate_approval",
+  "approved",
+  "approved_by",
+  "merchant_size",
+  "stores_tab",
+  "stores",
+  "management_contact_details_tab",
+  "management_contact",
+  "address_tab",
+  "address_section",
+  "zip_code",
+  "building_number",
+  "street_name",
+  "district_name",
+  "unit_number",
+  "address",
+  "column_break_vgto",
+  "telephone_1",
+  "telephone2",
+  "fax",
+  "postal_box_1",
+  "postal_box_2",
+  "managers_section",
+  "managers",
+  "merchant_representative_section",
+  "merchant_representative",
+  "column_break_sczd",
+  "job_title",
+  "column_break_fult",
+  "wathq",
+  "wathq_info_tab",
+  "response_code",
+  "response",
+  "response_json"
+ ],
+ "fields": [
+  {
+   "fieldname": "personal_information_section",
+   "fieldtype": "Section Break",
+   "label": "Personal Information"
+  },
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "label": "Full Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Last Name"
+  },
+  {
+   "fieldname": "email_address",
+   "fieldtype": "Data",
+   "label": "Email Address",
+   "options": "Email",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "phone_number",
+   "fieldtype": "Data",
+   "label": "Phone Number"
+  },
+  {
+   "fieldname": "column_break_fafg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "company_logo",
+   "fieldtype": "Attach",
+   "label": "Company Logo"
+  },
+  {
+   "fieldname": "column_break_lven",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "company_link",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Company Website (URL)",
+   "options": "URL"
+  },
+  {
+   "fieldname": "iban",
+   "fieldtype": "Attach",
+   "label": "IBAN"
+  },
+  {
+   "fieldname": "stores_tab",
+   "fieldtype": "Tab Break",
+   "label": "Stores"
+  },
+  {
+   "fieldname": "stores",
+   "fieldtype": "Table",
+   "options": "Merchant Stores"
+  },
+  {
+   "fieldname": "management_contact_details_tab",
+   "fieldtype": "Tab Break",
+   "label": "Management Contact Details"
+  },
+  {
+   "fieldname": "management_contact",
+   "fieldtype": "Table",
+   "options": "Management Contact Details"
+  },
+  {
+   "fieldname": "wathq_info_tab",
+   "fieldtype": "Tab Break",
+   "label": "Wathq Info"
+  },
+  {
+   "fieldname": "response_code",
+   "fieldtype": "Data",
+   "label": "Response Code",
+   "read_only": 1
+  },
+  {
+   "fieldname": "response",
+   "fieldtype": "Long Text",
+   "label": "Response",
+   "read_only": 1
+  },
+  {
+   "fieldname": "service_section",
+   "fieldtype": "Section Break",
+   "label": "Service"
+  },
+  {
+   "fieldname": "type_of_business",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Type of Business",
+   "no_copy": 1,
+   "options": "Type of Business",
+   "read_only": 1
+  },
+  {
+   "fieldname": "business_category",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Business Category ",
+   "no_copy": 1,
+   "options": "Merchant Business Category",
+   "read_only": 1
+  },
+  {
+   "fieldname": "service_type",
+   "fieldtype": "Table",
+   "in_preview": 1,
+   "label": "Service Type",
+   "no_copy": 1,
+   "options": "Service Type",
+   "read_only": 1
+  },
+  {
+   "fieldname": "sub_category",
+   "fieldtype": "Table",
+   "label": "Sub Category",
+   "no_copy": 1,
+   "options": "Registration Questionnaire Sub Category",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_roee",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "business_information_section",
+   "fieldtype": "Section Break",
+   "label": "Business Information",
+   "no_copy": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "commercial_register",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Commercial Register",
+   "no_copy": 1,
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "wathq_status",
+   "fieldtype": "Select",
+   "label": "Wathq Status",
+   "no_copy": 1,
+   "options": "Pending\nSuccess\nFailed",
+   "read_only": 1
+  },
+  {
+   "fieldname": "annual_sales",
+   "fieldtype": "Currency",
+   "label": "Annual Sales",
+   "no_copy": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "annual_sales_digit",
+   "fieldtype": "Int",
+   "label": "Annual Sales Digit",
+   "no_copy": 1,
+   "read_only": 1
+  },
+  {
+   "description": "(Wathq Info)",
+   "fieldname": "commercial_register_status",
+   "fieldtype": "Select",
+   "label": "Commercial Register Status",
+   "no_copy": 1,
+   "options": "\nActive\nInactive",
+   "read_only": 1
+  },
+  {
+   "fieldname": "merchant_ticket_size",
+   "fieldtype": "Currency",
+   "label": "Merchant Ticket Size",
+   "no_copy": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_ckgv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "number_of_outlets",
+   "fieldtype": "Int",
+   "label": "Number of Outlets",
+   "no_copy": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "business_starting_date",
+   "fieldtype": "Date",
+   "label": "Business Starting Date",
+   "no_copy": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "business_starting_by_months",
+   "fieldtype": "Int",
+   "label": "Business Starting By Months",
+   "no_copy": 1,
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "active_zakat",
+   "fieldtype": "Check",
+   "label": "Active Zakat",
+   "no_copy": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_mmpi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "active_vat",
+   "fieldtype": "Check",
+   "label": "Active VAT",
+   "no_copy": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "mac_percentage",
+   "fieldtype": "Percent",
+   "label": "Pre-Defined MAC Percentage",
+   "no_copy": 1,
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "automate_approval",
+   "fieldtype": "Check",
+   "label": "Automate Approval",
+   "no_copy": 1,
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "approved",
+   "fieldtype": "Check",
+   "label": "Approved",
+   "no_copy": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "approved_by",
+   "fieldtype": "Data",
+   "label": "Approved By",
+   "no_copy": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "merchant_size",
+   "fieldtype": "Data",
+   "label": "Merchant Size",
+   "no_copy": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "company_name",
+   "fieldtype": "Data",
+   "label": "Company Name",
+   "no_copy": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "integration_q",
+   "fieldtype": "Select",
+   "label": "Are you willing to integration?",
+   "no_copy": 1,
+   "options": "Yes\nNo",
+   "read_only": 1
+  },
+  {
+   "fieldname": "co_markting_q",
+   "fieldtype": "Select",
+   "label": "Are you willing to Co-markting?",
+   "no_copy": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "registration_questionnaire",
+   "fieldtype": "Link",
+   "label": "Registration Questionnaire",
+   "no_copy": 1,
+   "options": "Registration Questionnaire",
+   "read_only": 1
+  },
+  {
+   "fieldname": "user",
+   "fieldtype": "Link",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "User",
+   "options": "User",
+   "read_only": 1
+  },
+  {
+   "fieldname": "temp_password",
+   "fieldtype": "Data",
+   "label": "Temp Password",
+   "read_only": 1
+  },
+  {
+   "fieldname": "address_tab",
+   "fieldtype": "Tab Break",
+   "label": "Address and Managers"
+  },
+  {
+   "fieldname": "zip_code",
+   "fieldtype": "Data",
+   "label": "ZIP Code"
+  },
+  {
+   "fieldname": "building_number",
+   "fieldtype": "Data",
+   "label": "Building Number"
+  },
+  {
+   "fieldname": "fax",
+   "fieldtype": "Data",
+   "label": "FAX"
+  },
+  {
+   "fieldname": "telephone_1",
+   "fieldtype": "Data",
+   "label": "Telephone 1"
+  },
+  {
+   "fieldname": "telephone2",
+   "fieldtype": "Data",
+   "label": "Telephone2"
+  },
+  {
+   "fieldname": "postal_box_1",
+   "fieldtype": "Data",
+   "label": "Postal Box 1"
+  },
+  {
+   "fieldname": "postal_box_2",
+   "fieldtype": "Data",
+   "label": "Postal Box 2"
+  },
+  {
+   "fieldname": "street_name",
+   "fieldtype": "Data",
+   "label": "Street Name"
+  },
+  {
+   "fieldname": "district_name",
+   "fieldtype": "Data",
+   "label": "District Name"
+  },
+  {
+   "fieldname": "unit_number",
+   "fieldtype": "Data",
+   "label": "Unit Number"
+  },
+  {
+   "fieldname": "column_break_vgto",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "address_section",
+   "fieldtype": "Section Break",
+   "label": "Address"
+  },
+  {
+   "fieldname": "managers_section",
+   "fieldtype": "Section Break",
+   "label": " Wathq Parties "
+  },
+  {
+   "fieldname": "managers",
+   "fieldtype": "Table",
+   "label": "Managers",
+   "options": "Merchant Managers"
+  },
+  {
+   "fieldname": "response_json",
+   "fieldtype": "JSON",
+   "label": "Response Json",
+   "read_only": 1
+  },
+  {
+   "fieldname": "merchant_representative_section",
+   "fieldtype": "Section Break",
+   "label": "Merchant Representative"
+  },
+  {
+   "fieldname": "merchant_representative",
+   "fieldtype": "Data",
+   "label": "Merchant Representative",
+   "read_only": 1
+  },
+  {
+   "fieldname": "job_title",
+   "fieldtype": "Data",
+   "label": "Job Title",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "wathq",
+   "fieldtype": "Check",
+   "label": "Wathq",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_sczd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_fult",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Pending (Waiting to Onbording)",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Status",
+   "options": "Pending (Waiting to Onbording)\nOnbording (Waiting to Offer)\nOffer (Waiting To Contract)\nActive (Contracted)\nInactive (Waiting for renewal)",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "disabled",
+   "fieldtype": "Check",
+   "label": "Disabled"
+  },
+  {
+   "fieldname": "iban_number",
+   "fieldtype": "Data",
+   "label": "IBAN Number",
+   "read_only": 1
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "label": "Address"
+  },
+  {
+   "fieldname": "zakat_attacment",
+   "fieldtype": "Attach",
+   "label": "Zakat Attacment",
+   "read_only": 1
+  },
+  {
+   "fieldname": "vat_attachment",
+   "fieldtype": "Attach",
+   "label": "VAT Attachment",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "registed",
+   "fieldtype": "Check",
+   "label": "Registed",
+   "no_copy": 1,
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "uploaded",
+   "fieldtype": "Check",
+   "label": "Uploaded"
+  }
+ ],
+ "grid_page_length": 50,
+ "in_create": 1,
+ "index_web_pages_for_search": 1,
+ "links": [
+  {
+   "link_doctype": "Commercial Proposition",
+   "link_fieldname": "merchant"
+  },
+  {
+   "link_doctype": "Merchant Contract",
+   "link_fieldname": "merchant"
+  },
+  {
+   "link_doctype": "Merchant Offer",
+   "link_fieldname": "merchant"
+  },
+  {
+   "link_doctype": "Merchant Subvention Agreement",
+   "link_fieldname": "merchant"
+  },
+  {
+   "link_doctype": "Merchant ID",
+   "link_fieldname": "merchant"
+  },
+  {
+   "link_doctype": "Customer",
+   "link_fieldname": "custom_merchant"
+  }
+ ],
+ "modified": "2025-05-20 13:49:13.339506",
+ "modified_by": "Administrator",
+ "module": "Merchant Portal",
+ "name": "Merchant",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "select": 1,
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Commercial  Officer",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Commercial Chief",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Head of Commercial",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Merchant",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Risk Team",
+   "share": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Head of Finance",
+   "share": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Merchant Portal Admin",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Legal Officer",
+   "share": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Accounts Manager",
+   "share": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Accounts User",
+   "share": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "search_fields": "company_name,commercial_register,email_address,phone_number",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [
+  {
+   "color": "Blue",
+   "title": "Pending (Waiting to Onbording)"
+  },
+  {
+   "color": "Yellow",
+   "title": "Onbording (Waiting to Offer)"
+  },
+  {
+   "color": "Orange",
+   "title": "Offer (Waiting To Contract)"
+  },
+  {
+   "color": "Green",
+   "title": "Active (Contracted)"
+  },
+  {
+   "color": "Red",
+   "title": "Inactive (Waiting for renewal)"
+  }
+ ],
+ "track_changes": 1,
+ "track_seen": 1,
+ "track_views": 1
+}

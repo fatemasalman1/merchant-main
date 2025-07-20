@@ -1,0 +1,87 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:MU-{####}",
+ "creation": "2025-04-20 16:31:50.227563",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "posting_date",
+  "column_break_sqkw",
+  "status",
+  "mid_section",
+  "mids",
+  "error_message_section",
+  "error_msg"
+ ],
+ "fields": [
+  {
+   "fieldname": "column_break_sqkw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "no_copy": 1,
+   "options": "Pending\nPartially Success\nSuccess\nFailed"
+  },
+  {
+   "fieldname": "mid_section",
+   "fieldtype": "Section Break",
+   "label": "MID"
+  },
+  {
+   "allow_bulk_edit": 1,
+   "fieldname": "mids",
+   "fieldtype": "Table",
+   "label": "Mids",
+   "options": "MID Uploadeds"
+  },
+  {
+   "fieldname": "posting_date",
+   "fieldtype": "Date",
+   "label": "Posting Date",
+   "no_copy": 1,
+   "options": "today"
+  },
+  {
+   "fieldname": "error_message_section",
+   "fieldtype": "Section Break",
+   "label": "Error Message"
+  },
+  {
+   "fieldname": "error_msg",
+   "fieldtype": "Text",
+   "label": "Error Msg",
+   "read_only": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-04-29 21:49:38.181885",
+ "modified_by": "Administrator",
+ "module": "Merchant Portal",
+ "name": "MID Uploaded",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

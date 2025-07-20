@@ -1,0 +1,43 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-01-27 17:40:57.078364",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "tenure",
+  "profit_rate"
+ ],
+ "fields": [
+  {
+   "fieldname": "tenure",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Tenure",
+   "non_negative": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "profit_rate",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Profit Rate",
+   "non_negative": 1,
+   "precision": "3",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-01-27 17:44:53.392755",
+ "modified_by": "Administrator",
+ "module": "Merchant Portal",
+ "name": "Customer Tenures",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

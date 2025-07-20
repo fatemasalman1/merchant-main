@@ -1,0 +1,23 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Integration Type",
+  "modified": "2025-03-04 02:05:50.476513",
+  "name": "RegisterMerchant",
+  "type": "RegisterMerchant"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Integration Type",
+  "modified": "2025-03-04 02:06:00.946163",
+  "name": "AddMid",
+  "type": "AddMid"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Integration Type",
+  "modified": "2025-03-04 02:06:12.567123",
+  "name": "RemoveMid",
+  "type": "RemoveMid"
+ }
+]

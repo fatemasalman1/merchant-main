@@ -1,0 +1,546 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:MSA-{#####}",
+ "creation": "2025-02-01 20:36:26.754036",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "merchant_details_section",
+  "column_break_njvd",
+  "commercial_register",
+  "phone_number",
+  "column_break_pbzp",
+  "merchant",
+  "company_name",
+  "column_break_fiap",
+  "merchant_offer",
+  "merchant_contract",
+  "contract_details_section",
+  "contract_start_date",
+  "contract_end_date",
+  "column_break_cgbe",
+  "status",
+  "payment_plan_offer",
+  "auto_renewal",
+  "subvention_plan_section",
+  "subvention_rate",
+  "column_break_krag",
+  "customer_acquisition",
+  "mid_section",
+  "registered",
+  "viban",
+  "w4u_contract_id",
+  "mids",
+  "section_break_yzpb",
+  "amended_from",
+  "scheduler_tracker_tab",
+  "invoice_section",
+  "last_pull_start_date",
+  "last_execution_time",
+  "enable_scheduler",
+  "column_break_domj",
+  "last_pull_end_date",
+  "last_scheduler_status",
+  "initial_transaction_date",
+  "opening_invoice_fetched",
+  "scheduler_status_section",
+  "scheduler_status_tracker",
+  "payment_scheduler_tracker_tab",
+  "payment_section",
+  "payment_last_pull_start_date",
+  "payment_last_execution_time",
+  "payment_enable_scheduler",
+  "column_break_hckx",
+  "payment_last_pull_end_date",
+  "payment_last_scheduler_status",
+  "payment_scheduler",
+  "payments_scheduler_tracker_tab"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_yzpb",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Merchant Subvention Agreement",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "merchant_details_section",
+   "fieldtype": "Section Break",
+   "label": "Merchant Details"
+  },
+  {
+   "fieldname": "merchant",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Merchant",
+   "no_copy": 1,
+   "options": "Merchant",
+   "read_only": 1
+  },
+  {
+   "fieldname": "company_name",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Company Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_njvd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "commercial_register",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Commercial Register",
+   "no_copy": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "phone_number",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Phone Number",
+   "no_copy": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "merchant_offer",
+   "fieldtype": "Link",
+   "label": "Merchant Offer",
+   "no_copy": 1,
+   "options": "Merchant Offer",
+   "read_only": 1
+  },
+  {
+   "fieldname": "merchant_contract",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Merchant Contract",
+   "no_copy": 1,
+   "options": "Merchant Contract",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_fiap",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "contract_details_section",
+   "fieldtype": "Section Break",
+   "label": "Contract Details"
+  },
+  {
+   "fieldname": "contract_start_date",
+   "fieldtype": "Date",
+   "label": "Contract Start Date",
+   "read_only": 1
+  },
+  {
+   "fieldname": "contract_end_date",
+   "fieldtype": "Date",
+   "label": "Contract End Date",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_cgbe",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Active",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Status",
+   "options": "Pending\nExpired\nActive\nInactive",
+   "read_only": 1
+  },
+  {
+   "fieldname": "payment_plan_offer",
+   "fieldtype": "Data",
+   "label": "Payment Plan Offer",
+   "read_only": 1
+  },
+  {
+   "fieldname": "subvention_plan_section",
+   "fieldtype": "Section Break",
+   "label": "Subvention Plan"
+  },
+  {
+   "fieldname": "subvention_rate",
+   "fieldtype": "Percent",
+   "label": "Subvention Rate",
+   "read_only": 1
+  },
+  {
+   "fieldname": "customer_acquisition",
+   "fieldtype": "Currency",
+   "label": "Customer Acquisition (SR/Booking)",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_krag",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "mid_section",
+   "fieldtype": "Section Break",
+   "label": "MID"
+  },
+  {
+   "allow_on_submit": 1,
+   "default": "0",
+   "fieldname": "registered",
+   "fieldtype": "Check",
+   "label": "Registered",
+   "no_copy": 1,
+   "read_only": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "viban",
+   "fieldtype": "Data",
+   "label": "Viban",
+   "no_copy": 1,
+   "read_only": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "mids",
+   "fieldtype": "Table",
+   "no_copy": 1,
+   "options": "Merchant ID",
+   "read_only": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "w4u_contract_id",
+   "fieldtype": "Data",
+   "label": "W4u Contract ID",
+   "no_copy": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_pbzp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "scheduler_tracker_tab",
+   "fieldtype": "Tab Break",
+   "label": " Invoice Scheduler Tracker"
+  },
+  {
+   "fieldname": "invoice_section",
+   "fieldtype": "Section Break",
+   "label": "Invoice"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "last_pull_start_date",
+   "fieldtype": "Date",
+   "label": "Last Pull Start Date"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "last_execution_time",
+   "fieldtype": "Datetime",
+   "label": "Last Execution Time"
+  },
+  {
+   "fieldname": "column_break_domj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "last_pull_end_date",
+   "fieldtype": "Date",
+   "label": "Last Pull End Date"
+  },
+  {
+   "allow_on_submit": 1,
+   "default": "0",
+   "fieldname": "opening_invoice_fetched",
+   "fieldtype": "Check",
+   "label": "Opening Invoice Fetched"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "last_scheduler_status",
+   "fieldtype": "Select",
+   "label": "Last Scheduler Status",
+   "options": "Pending\nSuccess\nFailed"
+  },
+  {
+   "fieldname": "scheduler_status_section",
+   "fieldtype": "Section Break",
+   "label": "Scheduler Status"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "scheduler_status_tracker",
+   "fieldtype": "Table",
+   "label": "Scheduler Status Tracker",
+   "options": "Scheduler Status Tracker",
+   "read_only": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "default": "0",
+   "fieldname": "enable_scheduler",
+   "fieldtype": "Check",
+   "label": "Enable Invoice Scheduler"
+  },
+  {
+   "fieldname": "payment_scheduler_tracker_tab",
+   "fieldtype": "Tab Break",
+   "label": "Payment Scheduler Tracker"
+  },
+  {
+   "fieldname": "payment_section",
+   "fieldtype": "Section Break",
+   "label": "Payment"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "payment_last_pull_start_date",
+   "fieldtype": "Date",
+   "label": "Last Pull Start Date (Payment)"
+  },
+  {
+   "allow_on_submit": 1,
+   "default": "2024-01-01",
+   "fieldname": "payment_last_pull_end_date",
+   "fieldtype": "Date",
+   "label": "Last Pull End Date (Payment)"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "payment_last_execution_time",
+   "fieldtype": "Datetime",
+   "label": "Last Execution Time"
+  },
+  {
+   "fieldname": "column_break_hckx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "payment_last_scheduler_status",
+   "fieldtype": "Select",
+   "label": "Last Scheduler Status",
+   "options": "Pending\nSuccess\nFailed"
+  },
+  {
+   "allow_on_submit": 1,
+   "default": "0",
+   "fieldname": "payment_enable_scheduler",
+   "fieldtype": "Check",
+   "label": "Enable Payment Scheduler"
+  },
+  {
+   "fieldname": "payment_scheduler",
+   "fieldtype": "Section Break",
+   "label": "Scheduler Status"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "payments_scheduler_tracker_tab",
+   "fieldtype": "Table",
+   "label": "Scheduler Status Tracker",
+   "options": "Scheduler Status Tracker"
+  },
+  {
+   "default": "1",
+   "fieldname": "auto_renewal",
+   "fieldtype": "Check",
+   "label": "Auto Renewal"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "initial_transaction_date",
+   "fieldtype": "Date",
+   "label": "Initial Transaction Date"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [
+  {
+   "link_doctype": "Merchant Subvention Agreement Log",
+   "link_fieldname": "merchant_subvention_agreement"
+  },
+  {
+   "link_doctype": "Integration Hub",
+   "link_fieldname": "reference_name"
+  },
+  {
+   "link_doctype": "Customer",
+   "link_fieldname": "custom_merchant_subvention_agreement"
+  },
+  {
+   "link_doctype": "Payment Entry",
+   "link_fieldname": "custom_merchant_subvention_agreement"
+  },
+  {
+   "link_doctype": "Sales Invoice",
+   "link_fieldname": "custom_merchant_subvention_agreement"
+  }
+ ],
+ "modified": "2025-05-25 15:36:14.891239",
+ "modified_by": "Administrator",
+ "module": "Merchant Portal",
+ "name": "Merchant Subvention Agreement",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "amend": 1,
+   "cancel": 1,
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "select": 1,
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Commercial  Officer",
+   "share": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Commercial Chief",
+   "share": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Head of Commercial",
+   "share": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Risk Team",
+   "share": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Merchant Portal Admin",
+   "share": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Legal Officer",
+   "share": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Merchant",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Head of Finance",
+   "share": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Accounts Manager",
+   "share": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "search_fields": "company_name,commercial_register,phone_number",
+ "show_title_field_in_link": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [
+  {
+   "color": "Yellow",
+   "title": "Pending"
+  },
+  {
+   "color": "Red",
+   "title": "Expired"
+  },
+  {
+   "color": "Green",
+   "title": "Active"
+  },
+  {
+   "color": "Red",
+   "title": "Inactive"
+  }
+ ],
+ "title_field": "company_name",
+ "track_changes": 1
+}

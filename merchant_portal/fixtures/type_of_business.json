@@ -1,0 +1,116 @@
+[
+ {
+  "business_category": [
+   {
+    "merchant_business_category": "Healthcare",
+    "parent": "Service",
+    "parentfield": "business_category",
+    "parenttype": "Type of Business"
+   },
+   {
+    "merchant_business_category": "Car Service",
+    "parent": "Service",
+    "parentfield": "business_category",
+    "parenttype": "Type of Business"
+   },
+   {
+    "merchant_business_category": "Entertainment",
+    "parent": "Service",
+    "parentfield": "business_category",
+    "parenttype": "Type of Business"
+   },
+   {
+    "merchant_business_category": "Health",
+    "parent": "Service",
+    "parentfield": "business_category",
+    "parenttype": "Type of Business"
+   },
+   {
+    "merchant_business_category": "Insurance",
+    "parent": "Service",
+    "parentfield": "business_category",
+    "parenttype": "Type of Business"
+   },
+   {
+    "merchant_business_category": "Telecom Operators",
+    "parent": "Service",
+    "parentfield": "business_category",
+    "parenttype": "Type of Business"
+   },
+   {
+    "merchant_business_category": "Automotives",
+    "parent": "Service",
+    "parentfield": "business_category",
+    "parenttype": "Type of Business"
+   },
+   {
+    "merchant_business_category": "Aggregator",
+    "parent": "Service",
+    "parentfield": "business_category",
+    "parenttype": "Type of Business"
+   }
+  ],
+  "docstatus": 0,
+  "doctype": "Type of Business",
+  "modified": "2024-09-18 09:31:17.561198",
+  "name": "Service",
+  "title": "Service"
+ },
+ {
+  "business_category": [
+   {
+    "merchant_business_category": "Furniture & Home Improvement",
+    "parent": "Retailer",
+    "parentfield": "business_category",
+    "parenttype": "Type of Business"
+   },
+   {
+    "merchant_business_category": "Cosmetics",
+    "parent": "Retailer",
+    "parentfield": "business_category",
+    "parenttype": "Type of Business"
+   },
+   {
+    "merchant_business_category": "Electronics",
+    "parent": "Retailer",
+    "parentfield": "business_category",
+    "parenttype": "Type of Business"
+   },
+   {
+    "merchant_business_category": "Market Place",
+    "parent": "Retailer",
+    "parentfield": "business_category",
+    "parenttype": "Type of Business"
+   },
+   {
+    "merchant_business_category": "Grocery",
+    "parent": "Retailer",
+    "parentfield": "business_category",
+    "parenttype": "Type of Business"
+   },
+   {
+    "merchant_business_category": "Fashion",
+    "parent": "Retailer",
+    "parentfield": "business_category",
+    "parenttype": "Type of Business"
+   },
+   {
+    "merchant_business_category": "Gold and Jewelry",
+    "parent": "Retailer",
+    "parentfield": "business_category",
+    "parenttype": "Type of Business"
+   },
+   {
+    "merchant_business_category": "Home Finishing",
+    "parent": "Retailer",
+    "parentfield": "business_category",
+    "parenttype": "Type of Business"
+   }
+  ],
+  "docstatus": 0,
+  "doctype": "Type of Business",
+  "modified": "2024-09-18 09:35:50.274231",
+  "name": "Retailer",
+  "title": "Retailer"
+ }
+]

@@ -1,0 +1,235 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-10-17 04:13:26.350657",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "merchant_contract",
+  "posting_datetime",
+  "column_break_rebj",
+  "log_type",
+  "row_name",
+  "contract_pdf",
+  "column_break_jqvb",
+  "email",
+  "sent_by",
+  "section_break_uzox",
+  "invaild_contract",
+  "subject",
+  "message",
+  "offer_details_section",
+  "monthly_price",
+  "type",
+  "customer_acquisition_srbooking",
+  "column_break_fahe",
+  "entry_support_percentage",
+  "payment_plan_offer",
+  "investment",
+  "section_1",
+  "stop_the_service_days",
+  "column_break_lfto",
+  "late_fine_days",
+  "late_fine_percentage"
+ ],
+ "fields": [
+  {
+   "fieldname": "merchant_contract",
+   "fieldtype": "Link",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Merchant Contract",
+   "options": "Merchant Contract",
+   "read_only": 1
+  },
+  {
+   "fieldname": "row_name",
+   "fieldtype": "Data",
+   "label": "Row Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Email",
+   "read_only": 1
+  },
+  {
+   "fieldname": "posting_datetime",
+   "fieldtype": "Datetime",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Posting DateTime",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_rebj",
+   "fieldtype": "Column Break",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_jqvb",
+   "fieldtype": "Column Break",
+   "read_only": 1
+  },
+  {
+   "fieldname": "offer_details_section",
+   "fieldtype": "Section Break",
+   "label": "Offer Details",
+   "read_only": 1
+  },
+  {
+   "fieldname": "monthly_price",
+   "fieldtype": "Currency",
+   "label": "Monthly Price",
+   "read_only": 1
+  },
+  {
+   "fieldname": "type",
+   "fieldtype": "Data",
+   "label": "Type",
+   "read_only": 1
+  },
+  {
+   "fieldname": "customer_acquisition_srbooking",
+   "fieldtype": "Data",
+   "label": "Customer Acquisition (SR/Booking)",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_fahe",
+   "fieldtype": "Column Break",
+   "read_only": 1
+  },
+  {
+   "fieldname": "entry_support_percentage",
+   "fieldtype": "Data",
+   "label": "Entry Support Percentage",
+   "read_only": 1
+  },
+  {
+   "fieldname": "payment_plan_offer",
+   "fieldtype": "Data",
+   "label": "Payment Plan Offer",
+   "read_only": 1
+  },
+  {
+   "fieldname": "investment",
+   "fieldtype": "Percent",
+   "label": "Investment",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_1",
+   "fieldtype": "Section Break",
+   "label": " Price and method of payment (financial obligations):",
+   "read_only": 1
+  },
+  {
+   "fieldname": "stop_the_service_days",
+   "fieldtype": "Int",
+   "label": "Stop the service (Days)",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_lfto",
+   "fieldtype": "Column Break",
+   "read_only": 1
+  },
+  {
+   "fieldname": "late_fine_days",
+   "fieldtype": "Int",
+   "label": "Late Fine (Days)",
+   "non_negative": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "late_fine_percentage",
+   "fieldtype": "Int",
+   "label": "Late Fine(Percentage)",
+   "non_negative": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "contract_pdf",
+   "fieldtype": "Attach",
+   "label": "Contract PDF",
+   "read_only": 1
+  },
+  {
+   "fieldname": "sent_by",
+   "fieldtype": "Link",
+   "label": "Sent By",
+   "options": "User",
+   "read_only": 1
+  },
+  {
+   "default": "Send Contract",
+   "fieldname": "log_type",
+   "fieldtype": "Select",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Type",
+   "options": "Send Contract\nUpdate Contract (Issue)",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_uzox",
+   "fieldtype": "Section Break",
+   "read_only": 1
+  },
+  {
+   "fieldname": "invaild_contract",
+   "fieldtype": "Attach",
+   "label": "Invalid Contract",
+   "read_only": 1
+  },
+  {
+   "fieldname": "subject",
+   "fieldtype": "Data",
+   "label": "Subject",
+   "read_only": 1
+  },
+  {
+   "fieldname": "message",
+   "fieldtype": "Small Text",
+   "label": "Message",
+   "read_only": 1
+  }
+ ],
+ "in_create": 1,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-11-23 06:02:59.160071",
+ "modified_by": "Administrator",
+ "module": "Merchant Portal",
+ "name": "Merchant Contract Log",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

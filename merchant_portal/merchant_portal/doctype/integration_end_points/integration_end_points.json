@@ -1,0 +1,44 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-03-04 02:00:58.440175",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "type",
+  "column_break_dwyd",
+  "end_point"
+ ],
+ "fields": [
+  {
+   "fieldname": "type",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Type",
+   "options": "Integration Type"
+  },
+  {
+   "fieldname": "column_break_dwyd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "end_point",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "End Point"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-03-04 02:03:05.734694",
+ "modified_by": "Administrator",
+ "module": "Merchant Portal",
+ "name": "Integration End Points",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

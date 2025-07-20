@@ -1,0 +1,98 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:title",
+ "creation": "2024-10-26 17:45:37.840777",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "title",
+  "column_break_mqxl",
+  "default",
+  "s1",
+  "stop_the_service_days",
+  "column_break_tkyk",
+  "late_fine_days",
+  "late_fine_percentage"
+ ],
+ "fields": [
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Title",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "s1",
+   "fieldtype": "Section Break",
+   "label": " Price and method of payment (financial obligations):"
+  },
+  {
+   "fieldname": "stop_the_service_days",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Stop the service (Days)",
+   "non_negative": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "late_fine_days",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Late Fine (Days)",
+   "non_negative": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "late_fine_percentage",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Late Fine(Percentage)",
+   "non_negative": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_tkyk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "default": "0",
+   "fieldname": "default",
+   "fieldtype": "Check",
+   "label": "Default"
+  },
+  {
+   "fieldname": "column_break_mqxl",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-11-11 17:09:36.963101",
+ "modified_by": "Administrator",
+ "module": "Merchant Portal",
+ "name": "Price and method of payment template",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

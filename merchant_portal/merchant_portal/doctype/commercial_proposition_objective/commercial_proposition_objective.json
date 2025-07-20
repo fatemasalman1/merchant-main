@@ -1,0 +1,32 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-09-22 07:54:06.028850",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "objective"
+ ],
+ "fields": [
+  {
+   "fieldname": "objective",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Objective",
+   "options": "Proposition Objective"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-09-22 08:01:20.903564",
+ "modified_by": "Administrator",
+ "module": "Merchant Portal",
+ "name": "Commercial Proposition Objective",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

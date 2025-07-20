@@ -1,0 +1,290 @@
+{
+ "charts": [
+  {
+   "chart_name": "Offer Status",
+   "label": "Merchant Offer Status "
+  }
+ ],
+ "content": "[{\"id\":\"Y8TSlPkS8G\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Merchant Portal</span>\",\"col\":12}},{\"id\":\"Sesv5KbuqR\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Merchant Offer Status \",\"col\":12}},{\"id\":\"XHBdyX8Mcw\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"GSWoekgB2b\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Commercial Proposition Pending\",\"col\":4}},{\"id\":\"L_YtEZ-V8U\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Commercial Proposition Offered\",\"col\":4}},{\"id\":\"mLPTrV69qa\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Commercial Proposition Negotiate\",\"col\":4}},{\"id\":\"OOrJqKzTg8\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Commercial Proposition Accepted\",\"col\":4}},{\"id\":\"YmyBuEzbpK\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Commercial Proposition Closed\",\"col\":4}},{\"id\":\"lqTLN8AM_V\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"UfgIKH4rKG\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Merchant Lead\",\"col\":3}},{\"id\":\"GaZETu_3o1\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Registration Questionnaire\",\"col\":3}},{\"id\":\"8z-ltWuup1\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Merchant\",\"col\":3}},{\"id\":\"0B38_iTC5p\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Commercial Proposition\",\"col\":3}},{\"id\":\"f4YI4IwjZ4\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Merchant Offer\",\"col\":3}},{\"id\":\"34CUeeMK0o\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Merchant Contract\",\"col\":3}},{\"id\":\"pW7rc3Lncz\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Subvention Agreement\",\"col\":3}},{\"id\":\"-z7Oa5RiN0\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Issue\",\"col\":3}},{\"id\":\"dG17M47hi9\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"CwiLftUliK\",\"type\":\"card\",\"data\":{\"card_name\":\"Master Data\",\"col\":4}},{\"id\":\"D81hy3hH1r\",\"type\":\"card\",\"data\":{\"card_name\":\"Integration W4\",\"col\":4}},{\"id\":\"0rfDOeuwo9\",\"type\":\"card\",\"data\":{\"card_name\":\"Setting\",\"col\":4}}]",
+ "creation": "2024-09-16 07:21:04.491504",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "color-review-points",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Merchant Portal",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Setting",
+   "link_count": 3,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Pre-Defined MAC",
+   "link_count": 0,
+   "link_to": "Pre-Defined MAC",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Merchant Sizing Engine",
+   "link_count": 0,
+   "link_to": "Merchant Sizing Engine",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Commercial Proposition Engine",
+   "link_count": 0,
+   "link_to": "Commercial Proposition Engine",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Integration W4",
+   "link_count": 2,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Integration Hub",
+   "link_count": 0,
+   "link_to": "Integration Hub",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Integration End Point",
+   "link_count": 0,
+   "link_to": "Integration End Point",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Master Data",
+   "link_count": 6,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Registration Questionnaire",
+   "link_count": 0,
+   "link_to": "Registration Questionnaire",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Merchant",
+   "link_count": 0,
+   "link_to": "Merchant",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Commercial Proposition",
+   "link_count": 0,
+   "link_to": "Commercial Proposition",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Merchant Offer",
+   "link_count": 0,
+   "link_to": "Merchant Offer",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Merchant Contract",
+   "link_count": 0,
+   "link_to": "Merchant Contract",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Merchant Subvention Agreement",
+   "link_count": 0,
+   "link_to": "Merchant Subvention Agreement",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2025-05-17 19:58:19.052716",
+ "modified_by": "Administrator",
+ "module": "Merchant Portal",
+ "name": "Merchant Portal",
+ "number_cards": [
+  {
+   "label": "Commercial Proposition Pending",
+   "number_card_name": "Commercial Proposition Pending"
+  },
+  {
+   "label": "Commercial Proposition Offered",
+   "number_card_name": "Commercial Proposition Offered"
+  },
+  {
+   "label": "Commercial Proposition Negotiate",
+   "number_card_name": "Commercial Proposition Negotiate"
+  },
+  {
+   "label": "Commercial Proposition Accepted",
+   "number_card_name": "Commercial Proposition Accepted"
+  },
+  {
+   "label": "Commercial Proposition Closed",
+   "number_card_name": "Commercial Proposition Closed"
+  }
+ ],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "Merchant Portal Admin"
+  },
+  {
+   "role": "Merchent Portal Manager"
+  },
+  {
+   "role": "Commercial  Officer"
+  },
+  {
+   "role": "Commercial Chief"
+  },
+  {
+   "role": "Head of Commercial"
+  },
+  {
+   "role": "Legal Officer"
+  },
+  {
+   "role": "Merchant Portal Admin"
+  },
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "Head of Finance"
+  },
+  {
+   "role": "Risk Team"
+  }
+ ],
+ "sequence_id": 1.0,
+ "shortcuts": [
+  {
+   "color": "Red",
+   "doc_view": "List",
+   "format": "{} Open",
+   "label": "Issue",
+   "link_to": "Issue",
+   "stats_filter": "[[\"Issue\",\"status\",\"=\",\"Open\",false]]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Subvention Agreement",
+   "link_to": "Merchant Subvention Agreement",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Merchant",
+   "link_to": "Merchant",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Merchant Offer",
+   "link_to": "Merchant Offer",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Registration Questionnaire",
+   "link_to": "Registration Questionnaire",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Commercial Proposition",
+   "link_to": "Commercial Proposition",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Merchant Lead",
+   "link_to": "Merchant Lead",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Merchant Contract",
+   "link_to": "Merchant Contract",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
+ "title": "Merchant Portal"
+}

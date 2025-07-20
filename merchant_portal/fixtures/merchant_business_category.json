@@ -1,0 +1,289 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Merchant Business Category",
+  "modified": "2024-09-18 09:32:24.139441",
+  "name": "Car Service",
+  "sub_category": [
+   {
+    "business_category_sub": "Car Maintenance",
+    "parent": "Car Service",
+    "parentfield": "sub_category",
+    "parenttype": "Merchant Business Category"
+   },
+   {
+    "business_category_sub": "Car Accessories",
+    "parent": "Car Service",
+    "parentfield": "sub_category",
+    "parenttype": "Merchant Business Category"
+   }
+  ],
+  "title": "Car Service"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Merchant Business Category",
+  "modified": "2024-09-18 09:33:15.164611",
+  "name": "Entertainment",
+  "sub_category": [
+   {
+    "business_category_sub": "Travel and Tourism",
+    "parent": "Entertainment",
+    "parentfield": "sub_category",
+    "parenttype": "Merchant Business Category"
+   },
+   {
+    "business_category_sub": "Trampoline Parks",
+    "parent": "Entertainment",
+    "parentfield": "sub_category",
+    "parenttype": "Merchant Business Category"
+   },
+   {
+    "business_category_sub": "Party Events",
+    "parent": "Entertainment",
+    "parentfield": "sub_category",
+    "parenttype": "Merchant Business Category"
+   },
+   {
+    "business_category_sub": "Flowers And Gifts",
+    "parent": "Entertainment",
+    "parentfield": "sub_category",
+    "parenttype": "Merchant Business Category"
+   }
+  ],
+  "title": "Entertainment"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Merchant Business Category",
+  "modified": "2024-09-18 09:34:29.292375",
+  "name": "Insurance",
+  "sub_category": [
+   {
+    "business_category_sub": "Health Insurance",
+    "parent": "Insurance",
+    "parentfield": "sub_category",
+    "parenttype": "Merchant Business Category"
+   },
+   {
+    "business_category_sub": "Cars Insurance",
+    "parent": "Insurance",
+    "parentfield": "sub_category",
+    "parenttype": "Merchant Business Category"
+   }
+  ],
+  "title": "Insurance"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Merchant Business Category",
+  "modified": "2024-09-18 09:30:47.920178",
+  "name": "Telecom Operators",
+  "sub_category": [],
+  "title": "Telecom Operators"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Merchant Business Category",
+  "modified": "2024-09-18 09:30:55.622254",
+  "name": "Automotives",
+  "sub_category": [],
+  "title": "Automotives"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Merchant Business Category",
+  "modified": "2024-09-18 09:31:03.974257",
+  "name": "Aggregator",
+  "sub_category": [],
+  "title": "Aggregator"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Merchant Business Category",
+  "modified": "2024-09-18 09:35:14.299716",
+  "name": "Market Place",
+  "sub_category": [],
+  "title": "Market Place"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Merchant Business Category",
+  "modified": "2024-09-18 09:38:19.601533",
+  "name": "Home Finishing",
+  "sub_category": [
+   {
+    "business_category_sub": "Interior Design",
+    "parent": "Home Finishing",
+    "parentfield": "sub_category",
+    "parenttype": "Merchant Business Category"
+   },
+   {
+    "business_category_sub": "Elevators",
+    "parent": "Home Finishing",
+    "parentfield": "sub_category",
+    "parenttype": "Merchant Business Category"
+   },
+   {
+    "business_category_sub": "Lighting",
+    "parent": "Home Finishing",
+    "parentfield": "sub_category",
+    "parenttype": "Merchant Business Category"
+   }
+  ],
+  "title": "Home Finishing"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Merchant Business Category",
+  "modified": "2024-09-18 09:36:40.409210",
+  "name": "Furniture & Home Improvement",
+  "sub_category": [
+   {
+    "business_category_sub": "Home Furniture",
+    "parent": "Furniture & Home Improvement",
+    "parentfield": "sub_category",
+    "parenttype": "Merchant Business Category"
+   },
+   {
+    "business_category_sub": "Kitchens",
+    "parent": "Furniture & Home Improvement",
+    "parentfield": "sub_category",
+    "parenttype": "Merchant Business Category"
+   },
+   {
+    "business_category_sub": "Home Accessories",
+    "parent": "Furniture & Home Improvement",
+    "parentfield": "sub_category",
+    "parenttype": "Merchant Business Category"
+   },
+   {
+    "business_category_sub": "Kitchen Accessories",
+    "parent": "Furniture & Home Improvement",
+    "parentfield": "sub_category",
+    "parenttype": "Merchant Business Category"
+   }
+  ],
+  "title": "Furniture & Home Improvement"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Merchant Business Category",
+  "modified": "2024-09-18 09:33:51.151626",
+  "name": "Health",
+  "sub_category": [
+   {
+    "business_category_sub": "Fitness",
+    "parent": "Health",
+    "parentfield": "sub_category",
+    "parenttype": "Merchant Business Category"
+   },
+   {
+    "business_category_sub": "Healthy Food Applications",
+    "parent": "Health",
+    "parentfield": "sub_category",
+    "parenttype": "Merchant Business Category"
+   }
+  ],
+  "title": "Health"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Merchant Business Category",
+  "modified": "2024-09-18 09:35:37.026986",
+  "name": "Gold and Jewelry",
+  "sub_category": [],
+  "title": "Gold and Jewelry"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Merchant Business Category",
+  "modified": "2024-09-18 09:35:29.653214",
+  "name": "Fashion",
+  "sub_category": [],
+  "title": "Fashion"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Merchant Business Category",
+  "modified": "2024-09-18 09:35:22.247258",
+  "name": "Grocery",
+  "sub_category": [],
+  "title": "Grocery"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Merchant Business Category",
+  "modified": "2024-09-18 09:37:03.104887",
+  "name": "Cosmetics",
+  "sub_category": [
+   {
+    "business_category_sub": "Perfume",
+    "parent": "Cosmetics",
+    "parentfield": "sub_category",
+    "parenttype": "Merchant Business Category"
+   },
+   {
+    "business_category_sub": "Beauty Cosmetics",
+    "parent": "Cosmetics",
+    "parentfield": "sub_category",
+    "parenttype": "Merchant Business Category"
+   }
+  ],
+  "title": "Cosmetics"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Merchant Business Category",
+  "modified": "2024-09-18 09:31:51.828011",
+  "name": "Healthcare",
+  "sub_category": [
+   {
+    "business_category_sub": "Hospitals",
+    "parent": "Healthcare",
+    "parentfield": "sub_category",
+    "parenttype": "Merchant Business Category"
+   },
+   {
+    "business_category_sub": "Clincs",
+    "parent": "Healthcare",
+    "parentfield": "sub_category",
+    "parenttype": "Merchant Business Category"
+   },
+   {
+    "business_category_sub": "Pharmacy",
+    "parent": "Healthcare",
+    "parentfield": "sub_category",
+    "parenttype": "Merchant Business Category"
+   }
+  ],
+  "title": "Healthcare"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Merchant Business Category",
+  "modified": "2024-09-18 09:37:40.865098",
+  "name": "Electronics",
+  "sub_category": [
+   {
+    "business_category_sub": "Home Electronics",
+    "parent": "Electronics",
+    "parentfield": "sub_category",
+    "parenttype": "Merchant Business Category"
+   },
+   {
+    "business_category_sub": "Consumer Electronics",
+    "parent": "Electronics",
+    "parentfield": "sub_category",
+    "parenttype": "Merchant Business Category"
+   },
+   {
+    "business_category_sub": "Electronics Accessories",
+    "parent": "Electronics",
+    "parentfield": "sub_category",
+    "parenttype": "Merchant Business Category"
+   }
+  ],
+  "title": "Electronics"
+ }
+]

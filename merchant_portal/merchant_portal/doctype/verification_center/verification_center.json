@@ -1,0 +1,174 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-11-21 13:18:27.933871",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "merchant",
+  "seen_datetime",
+  "seen",
+  "column_break_mdou",
+  "type",
+  "user",
+  "posting_date",
+  "column_break_tgwn",
+  "doc_type",
+  "doc_name",
+  "status",
+  "data_section",
+  "data",
+  "action_section",
+  "column_break_acvp",
+  "redirect_url",
+  "method_type",
+  "column_break_vebw",
+  "args",
+  "section_break_fyay",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_fyay",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Verification Center",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "merchant",
+   "fieldtype": "Link",
+   "label": "Merchant",
+   "options": "Merchant"
+  },
+  {
+   "fieldname": "user",
+   "fieldtype": "Link",
+   "label": "User",
+   "options": "User"
+  },
+  {
+   "fieldname": "doc_type",
+   "fieldtype": "Link",
+   "label": "Document Type",
+   "options": "DocType"
+  },
+  {
+   "fieldname": "doc_name",
+   "fieldtype": "Dynamic Link",
+   "label": "Document Name",
+   "options": "doc_type"
+  },
+  {
+   "fieldname": "seen_datetime",
+   "fieldtype": "Datetime",
+   "label": "Seen DateTime"
+  },
+  {
+   "default": "0",
+   "fieldname": "seen",
+   "fieldtype": "Check",
+   "label": "Seen"
+  },
+  {
+   "fieldname": "column_break_mdou",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "posting_date",
+   "fieldtype": "Datetime",
+   "label": "Posting Date"
+  },
+  {
+   "fieldname": "column_break_tgwn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "action_section",
+   "fieldtype": "Section Break",
+   "label": "Response"
+  },
+  {
+   "fieldname": "type",
+   "fieldtype": "Select",
+   "label": "Type",
+   "options": "Dynamic\nOffer\nContract"
+  },
+  {
+   "fieldname": "redirect_url",
+   "fieldtype": "Data",
+   "label": "Redirect URL",
+   "options": "URL"
+  },
+  {
+   "fieldname": "args",
+   "fieldtype": "Table",
+   "label": "Args",
+   "options": "Verification Center Response args"
+  },
+  {
+   "fieldname": "column_break_vebw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "data_section",
+   "fieldtype": "Section Break",
+   "label": "Data"
+  },
+  {
+   "fieldname": "column_break_acvp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "method_type",
+   "fieldtype": "Select",
+   "label": "Method Type",
+   "options": "POST\nGET\nDELETE\nUPDATE"
+  },
+  {
+   "fieldname": "data",
+   "fieldtype": "Table",
+   "label": "Data",
+   "options": "Verification Center Data"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Not Responded\nResponded"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-11-21 15:17:15.690032",
+ "modified_by": "Administrator",
+ "module": "Merchant Portal",
+ "name": "Verification Center",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

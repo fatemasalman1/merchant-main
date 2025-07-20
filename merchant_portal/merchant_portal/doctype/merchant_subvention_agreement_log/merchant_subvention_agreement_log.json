@@ -1,0 +1,221 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-02-02 16:37:21.387776",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "merchant_details_section",
+  "merchant",
+  "company_name",
+  "posting_date",
+  "column_break_zsyo",
+  "commercial_register",
+  "phone_number",
+  "merchant_subvention_agreement",
+  "column_break_eyyu",
+  "merchant_offer",
+  "merchant_contract",
+  "contract_details_section",
+  "contract_start_date",
+  "contract_end_date",
+  "column_break_pnqd",
+  "payment_plan_offer",
+  "subvention_rate",
+  "customer_acquisition"
+ ],
+ "fields": [
+  {
+   "fieldname": "merchant_details_section",
+   "fieldtype": "Section Break",
+   "label": "Merchant Details"
+  },
+  {
+   "fieldname": "merchant",
+   "fieldtype": "Link",
+   "label": "Merchant",
+   "options": "Merchant",
+   "read_only": 1
+  },
+  {
+   "fieldname": "company_name",
+   "fieldtype": "Data",
+   "label": "Company Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_zsyo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "commercial_register",
+   "fieldtype": "Data",
+   "label": "Commercial Register",
+   "read_only": 1
+  },
+  {
+   "fieldname": "phone_number",
+   "fieldtype": "Data",
+   "label": "Phone Number",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_eyyu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "merchant_offer",
+   "fieldtype": "Link",
+   "label": "Merchant Offer",
+   "options": "Merchant Offer",
+   "read_only": 1
+  },
+  {
+   "fieldname": "merchant_contract",
+   "fieldtype": "Link",
+   "label": "Merchant Contract",
+   "options": "Merchant Contract",
+   "read_only": 1
+  },
+  {
+   "default": "Today",
+   "fieldname": "posting_date",
+   "fieldtype": "Date",
+   "label": "Posting Date",
+   "read_only": 1
+  },
+  {
+   "fieldname": "contract_details_section",
+   "fieldtype": "Section Break",
+   "label": "Contract Details"
+  },
+  {
+   "fieldname": "contract_start_date",
+   "fieldtype": "Date",
+   "label": "Contract Start Date",
+   "read_only": 1
+  },
+  {
+   "fieldname": "contract_end_date",
+   "fieldtype": "Date",
+   "label": "Contract End Date",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_pnqd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "payment_plan_offer",
+   "fieldtype": "Data",
+   "label": "Payment Plan Offer",
+   "read_only": 1
+  },
+  {
+   "fieldname": "subvention_rate",
+   "fieldtype": "Percent",
+   "label": "Subvention Rate",
+   "read_only": 1
+  },
+  {
+   "fieldname": "customer_acquisition",
+   "fieldtype": "Currency",
+   "label": "Customer Acquisition (SR/Booking)",
+   "read_only": 1
+  },
+  {
+   "fieldname": "merchant_subvention_agreement",
+   "fieldtype": "Link",
+   "label": "Merchant Subvention Agreement",
+   "options": "Merchant Subvention Agreement",
+   "read_only": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "in_create": 1,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-05-06 12:33:27.094053",
+ "modified_by": "Administrator",
+ "module": "Merchant Portal",
+ "name": "Merchant Subvention Agreement Log",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Head of Commercial",
+   "share": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Head of Finance",
+   "share": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Merchant Portal Admin",
+   "share": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Merchent Portal Manager",
+   "share": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Merchant",
+   "share": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Commercial  Officer",
+   "share": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Accounts Manager",
+   "share": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

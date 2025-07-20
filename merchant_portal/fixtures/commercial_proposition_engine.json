@@ -1,0 +1,3690 @@
+[
+ {
+  "business_category": "Automotives",
+  "customer_acquisition_support": [],
+  "docstatus": 0,
+  "doctype": "Commercial Proposition Engine",
+  "entry_pricing": [],
+  "modified": "2024-11-11 17:15:47.641236",
+  "name": "Automotives-Low-Proposition-Subvention",
+  "offer_type": "Low-Proposition",
+  "subvention_pricing_12": [
+   {
+    "parent": "Automotives-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 14.52,
+    "size": "L"
+   },
+   {
+    "parent": "Automotives-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 16.6,
+    "size": "M"
+   },
+   {
+    "parent": "Automotives-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 24.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_3": [
+   {
+    "parent": "Automotives-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 3.63,
+    "size": "L"
+   },
+   {
+    "parent": "Automotives-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 4.15,
+    "size": "M"
+   },
+   {
+    "parent": "Automotives-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 6.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_4": [
+   {
+    "parent": "Automotives-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 4.84,
+    "size": "L"
+   },
+   {
+    "parent": "Automotives-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 5.53,
+    "size": "M"
+   },
+   {
+    "parent": "Automotives-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 8.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_6": [
+   {
+    "parent": "Automotives-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 7.26,
+    "size": "L"
+   },
+   {
+    "parent": "Automotives-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 8.3,
+    "size": "M"
+   },
+   {
+    "parent": "Automotives-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 12.0,
+    "size": "S"
+   }
+  ],
+  "transaction_rebate": [],
+  "type": "Subvention"
+ },
+ {
+  "business_category": "Automotives",
+  "customer_acquisition_support": [],
+  "docstatus": 0,
+  "doctype": "Commercial Proposition Engine",
+  "entry_pricing": [
+   {
+    "parent": "Automotives-Med-Proposition-Subvention",
+    "parentfield": "entry_pricing",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 0.0,
+    "size": "L"
+   }
+  ],
+  "modified": "2024-11-11 17:18:09.770923",
+  "name": "Automotives-Med-Proposition-Subvention",
+  "offer_type": "Med-Proposition",
+  "subvention_pricing_12": [
+   {
+    "parent": "Automotives-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 16.52,
+    "size": "L"
+   },
+   {
+    "parent": "Automotives-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 18.6,
+    "size": "M"
+   },
+   {
+    "parent": "Automotives-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 24.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_3": [
+   {
+    "parent": "Automotives-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 4.13,
+    "size": "L"
+   },
+   {
+    "parent": "Automotives-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 4.65,
+    "size": "M"
+   },
+   {
+    "parent": "Automotives-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 6.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_4": [
+   {
+    "parent": "Automotives-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 5.51,
+    "size": "L"
+   },
+   {
+    "parent": "Automotives-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 6.2,
+    "size": "M"
+   },
+   {
+    "parent": "Automotives-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 8.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_6": [
+   {
+    "parent": "Automotives-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 8.26,
+    "size": "L"
+   },
+   {
+    "parent": "Automotives-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 9.3,
+    "size": "M"
+   },
+   {
+    "parent": "Automotives-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 12.0,
+    "size": "S"
+   }
+  ],
+  "transaction_rebate": [],
+  "type": "Subvention"
+ },
+ {
+  "business_category": "Automotives",
+  "customer_acquisition_support": [],
+  "docstatus": 0,
+  "doctype": "Commercial Proposition Engine",
+  "entry_pricing": [
+   {
+    "parent": "Automotives-Hi-Proposition-Subvention",
+    "parentfield": "entry_pricing",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 0.0,
+    "size": "L"
+   }
+  ],
+  "modified": "2024-11-11 17:18:09.648325",
+  "name": "Automotives-Hi-Proposition-Subvention",
+  "offer_type": "Hi-Proposition",
+  "subvention_pricing_12": [
+   {
+    "parent": "Automotives-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 18.52,
+    "size": "L"
+   },
+   {
+    "parent": "Automotives-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 20.6,
+    "size": "M"
+   },
+   {
+    "parent": "Automotives-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 24.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_3": [
+   {
+    "parent": "Automotives-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 4.63,
+    "size": "L"
+   },
+   {
+    "parent": "Automotives-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 5.15,
+    "size": "M"
+   },
+   {
+    "parent": "Automotives-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 6.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_4": [
+   {
+    "parent": "Automotives-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 6.17,
+    "size": "L"
+   },
+   {
+    "parent": "Automotives-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 6.87,
+    "size": "M"
+   },
+   {
+    "parent": "Automotives-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 8.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_6": [
+   {
+    "parent": "Automotives-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 9.26,
+    "size": "L"
+   },
+   {
+    "parent": "Automotives-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 10.3,
+    "size": "M"
+   },
+   {
+    "parent": "Automotives-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 12.0,
+    "size": "S"
+   }
+  ],
+  "transaction_rebate": [],
+  "type": "Subvention"
+ },
+ {
+  "business_category": "Electronics",
+  "customer_acquisition_support": [],
+  "docstatus": 0,
+  "doctype": "Commercial Proposition Engine",
+  "entry_pricing": [
+   {
+    "parent": "Electronics-Med-Proposition-Subvention",
+    "parentfield": "entry_pricing",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 0.0,
+    "size": "L"
+   }
+  ],
+  "modified": "2024-11-11 17:18:09.394830",
+  "name": "Electronics-Med-Proposition-Subvention",
+  "offer_type": "Med-Proposition",
+  "subvention_pricing_12": [
+   {
+    "parent": "Electronics-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 16.52,
+    "size": "L"
+   },
+   {
+    "parent": "Electronics-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 18.6,
+    "size": "M"
+   },
+   {
+    "parent": "Electronics-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 24.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_3": [
+   {
+    "parent": "Electronics-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 4.13,
+    "size": "L"
+   },
+   {
+    "parent": "Electronics-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 4.65,
+    "size": "M"
+   },
+   {
+    "parent": "Electronics-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 6.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_4": [
+   {
+    "parent": "Electronics-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 5.51,
+    "size": "L"
+   },
+   {
+    "parent": "Electronics-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 6.2,
+    "size": "M"
+   },
+   {
+    "parent": "Electronics-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 8.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_6": [
+   {
+    "parent": "Electronics-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 8.26,
+    "size": "L"
+   },
+   {
+    "parent": "Electronics-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 9.3,
+    "size": "M"
+   },
+   {
+    "parent": "Electronics-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 12.0,
+    "size": "S"
+   }
+  ],
+  "transaction_rebate": [],
+  "type": "Subvention"
+ },
+ {
+  "business_category": "Electronics",
+  "customer_acquisition_support": [],
+  "docstatus": 0,
+  "doctype": "Commercial Proposition Engine",
+  "entry_pricing": [
+   {
+    "parent": "Electronics-Low-Proposition-Subvention",
+    "parentfield": "entry_pricing",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 0.0,
+    "size": "L"
+   }
+  ],
+  "modified": "2024-11-11 17:18:09.302486",
+  "name": "Electronics-Low-Proposition-Subvention",
+  "offer_type": "Low-Proposition",
+  "subvention_pricing_12": [
+   {
+    "parent": "Electronics-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 14.52,
+    "size": "L"
+   },
+   {
+    "parent": "Electronics-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 16.6,
+    "size": "M"
+   },
+   {
+    "parent": "Electronics-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 24.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_3": [
+   {
+    "parent": "Electronics-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 3.63,
+    "size": "L"
+   },
+   {
+    "parent": "Electronics-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 4.15,
+    "size": "M"
+   },
+   {
+    "parent": "Electronics-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 6.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_4": [
+   {
+    "parent": "Electronics-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 4.84,
+    "size": "L"
+   },
+   {
+    "parent": "Electronics-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 5.53,
+    "size": "M"
+   },
+   {
+    "parent": "Electronics-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 8.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_6": [
+   {
+    "parent": "Electronics-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 7.26,
+    "size": "L"
+   },
+   {
+    "parent": "Electronics-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 8.3,
+    "size": "M"
+   },
+   {
+    "parent": "Electronics-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 12.0,
+    "size": "S"
+   }
+  ],
+  "transaction_rebate": [],
+  "type": "Subvention"
+ },
+ {
+  "business_category": "Cosmetics",
+  "customer_acquisition_support": [],
+  "docstatus": 0,
+  "doctype": "Commercial Proposition Engine",
+  "entry_pricing": [
+   {
+    "parent": "Cosmetics-None-Customer Acquisition Support",
+    "parentfield": "entry_pricing",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 0.0,
+    "size": "L"
+   }
+  ],
+  "modified": "2024-11-11 17:18:09.237250",
+  "name": "Cosmetics-None-Customer Acquisition Support",
+  "offer_type": "None",
+  "subvention_pricing_12": [],
+  "subvention_pricing_3": [],
+  "subvention_pricing_4": [],
+  "subvention_pricing_6": [],
+  "transaction_rebate": [],
+  "type": "Customer Acquisition Support"
+ },
+ {
+  "business_category": "Cosmetics",
+  "customer_acquisition_support": [],
+  "docstatus": 0,
+  "doctype": "Commercial Proposition Engine",
+  "entry_pricing": [
+   {
+    "parent": "Cosmetics-Hi-Proposition-Subvention",
+    "parentfield": "entry_pricing",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 0.0,
+    "size": "L"
+   }
+  ],
+  "modified": "2024-11-11 17:18:09.186184",
+  "name": "Cosmetics-Hi-Proposition-Subvention",
+  "offer_type": "Hi-Proposition",
+  "subvention_pricing_12": [
+   {
+    "parent": "Cosmetics-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 18.52,
+    "size": "L"
+   },
+   {
+    "parent": "Cosmetics-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 20.6,
+    "size": "M"
+   },
+   {
+    "parent": "Cosmetics-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 24.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_3": [
+   {
+    "parent": "Cosmetics-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 4.63,
+    "size": "L"
+   },
+   {
+    "parent": "Cosmetics-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 5.15,
+    "size": "M"
+   },
+   {
+    "parent": "Cosmetics-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 6.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_4": [
+   {
+    "parent": "Cosmetics-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 6.17,
+    "size": "L"
+   },
+   {
+    "parent": "Cosmetics-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 6.87,
+    "size": "M"
+   },
+   {
+    "parent": "Cosmetics-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 8.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_6": [
+   {
+    "parent": "Cosmetics-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 9.26,
+    "size": "L"
+   },
+   {
+    "parent": "Cosmetics-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 10.3,
+    "size": "M"
+   },
+   {
+    "parent": "Cosmetics-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 12.0,
+    "size": "S"
+   }
+  ],
+  "transaction_rebate": [],
+  "type": "Subvention"
+ },
+ {
+  "business_category": "Cosmetics",
+  "customer_acquisition_support": [],
+  "docstatus": 0,
+  "doctype": "Commercial Proposition Engine",
+  "entry_pricing": [
+   {
+    "parent": "Cosmetics-Med-Proposition-Subvention",
+    "parentfield": "entry_pricing",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 0.0,
+    "size": "L"
+   }
+  ],
+  "modified": "2024-11-11 17:18:09.109308",
+  "name": "Cosmetics-Med-Proposition-Subvention",
+  "offer_type": "Med-Proposition",
+  "subvention_pricing_12": [
+   {
+    "parent": "Cosmetics-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 16.52,
+    "size": "L"
+   },
+   {
+    "parent": "Cosmetics-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 18.6,
+    "size": "M"
+   },
+   {
+    "parent": "Cosmetics-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 24.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_3": [
+   {
+    "parent": "Cosmetics-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 4.13,
+    "size": "L"
+   },
+   {
+    "parent": "Cosmetics-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 4.65,
+    "size": "M"
+   },
+   {
+    "parent": "Cosmetics-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 6.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_4": [
+   {
+    "parent": "Cosmetics-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 5.51,
+    "size": "L"
+   },
+   {
+    "parent": "Cosmetics-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 6.2,
+    "size": "M"
+   },
+   {
+    "parent": "Cosmetics-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 8.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_6": [
+   {
+    "parent": "Cosmetics-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 8.26,
+    "size": "L"
+   },
+   {
+    "parent": "Cosmetics-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 9.3,
+    "size": "M"
+   },
+   {
+    "parent": "Cosmetics-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 12.0,
+    "size": "S"
+   }
+  ],
+  "transaction_rebate": [],
+  "type": "Subvention"
+ },
+ {
+  "business_category": "Cosmetics",
+  "customer_acquisition_support": [],
+  "docstatus": 0,
+  "doctype": "Commercial Proposition Engine",
+  "entry_pricing": [
+   {
+    "parent": "Cosmetics-Low-Proposition-Subvention",
+    "parentfield": "entry_pricing",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 0.0,
+    "size": "L"
+   }
+  ],
+  "modified": "2024-11-11 17:18:09.035156",
+  "name": "Cosmetics-Low-Proposition-Subvention",
+  "offer_type": "Low-Proposition",
+  "subvention_pricing_12": [
+   {
+    "parent": "Cosmetics-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 14.52,
+    "size": "L"
+   },
+   {
+    "parent": "Cosmetics-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 16.6,
+    "size": "M"
+   },
+   {
+    "parent": "Cosmetics-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 24.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_3": [
+   {
+    "parent": "Cosmetics-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 3.63,
+    "size": "L"
+   },
+   {
+    "parent": "Cosmetics-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 4.15,
+    "size": "M"
+   },
+   {
+    "parent": "Cosmetics-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 6.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_4": [
+   {
+    "parent": "Cosmetics-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 4.84,
+    "size": "L"
+   },
+   {
+    "parent": "Cosmetics-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 5.53,
+    "size": "M"
+   },
+   {
+    "parent": "Cosmetics-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 8.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_6": [
+   {
+    "parent": "Cosmetics-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 7.26,
+    "size": "L"
+   },
+   {
+    "parent": "Cosmetics-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 8.3,
+    "size": "M"
+   },
+   {
+    "parent": "Cosmetics-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 12.0,
+    "size": "S"
+   }
+  ],
+  "transaction_rebate": [],
+  "type": "Subvention"
+ },
+ {
+  "business_category": "Fashion",
+  "customer_acquisition_support": [],
+  "docstatus": 0,
+  "doctype": "Commercial Proposition Engine",
+  "entry_pricing": [
+   {
+    "parent": "Fashion-None-Customer Acquisition Support",
+    "parentfield": "entry_pricing",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 0.0,
+    "size": "L"
+   }
+  ],
+  "modified": "2024-11-11 17:18:08.982810",
+  "name": "Fashion-None-Customer Acquisition Support",
+  "offer_type": "None",
+  "subvention_pricing_12": [],
+  "subvention_pricing_3": [],
+  "subvention_pricing_4": [],
+  "subvention_pricing_6": [],
+  "transaction_rebate": [],
+  "type": "Customer Acquisition Support"
+ },
+ {
+  "business_category": "Fashion",
+  "customer_acquisition_support": [],
+  "docstatus": 0,
+  "doctype": "Commercial Proposition Engine",
+  "entry_pricing": [
+   {
+    "parent": "Fashion-Hi-Proposition-Subvention",
+    "parentfield": "entry_pricing",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 0.0,
+    "size": "L"
+   }
+  ],
+  "modified": "2024-11-11 17:18:08.938665",
+  "name": "Fashion-Hi-Proposition-Subvention",
+  "offer_type": "Hi-Proposition",
+  "subvention_pricing_12": [
+   {
+    "parent": "Fashion-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 18.52,
+    "size": "L"
+   },
+   {
+    "parent": "Fashion-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 20.6,
+    "size": "M"
+   },
+   {
+    "parent": "Fashion-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 24.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_3": [
+   {
+    "parent": "Fashion-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 4.63,
+    "size": "L"
+   },
+   {
+    "parent": "Fashion-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 5.15,
+    "size": "M"
+   },
+   {
+    "parent": "Fashion-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 6.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_4": [
+   {
+    "parent": "Fashion-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 6.17,
+    "size": "L"
+   },
+   {
+    "parent": "Fashion-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 6.87,
+    "size": "M"
+   },
+   {
+    "parent": "Fashion-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 8.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_6": [
+   {
+    "parent": "Fashion-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 9.26,
+    "size": "L"
+   },
+   {
+    "parent": "Fashion-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 10.3,
+    "size": "M"
+   },
+   {
+    "parent": "Fashion-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 12.0,
+    "size": "S"
+   }
+  ],
+  "transaction_rebate": [],
+  "type": "Subvention"
+ },
+ {
+  "business_category": "Fashion",
+  "customer_acquisition_support": [],
+  "docstatus": 0,
+  "doctype": "Commercial Proposition Engine",
+  "entry_pricing": [
+   {
+    "parent": "Fashion-Med-Proposition-Subvention",
+    "parentfield": "entry_pricing",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 0.0,
+    "size": "L"
+   }
+  ],
+  "modified": "2024-11-11 17:18:08.870595",
+  "name": "Fashion-Med-Proposition-Subvention",
+  "offer_type": "Med-Proposition",
+  "subvention_pricing_12": [
+   {
+    "parent": "Fashion-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 16.52,
+    "size": "L"
+   },
+   {
+    "parent": "Fashion-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 18.6,
+    "size": "M"
+   },
+   {
+    "parent": "Fashion-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 24.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_3": [
+   {
+    "parent": "Fashion-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 4.13,
+    "size": "L"
+   },
+   {
+    "parent": "Fashion-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 4.65,
+    "size": "M"
+   },
+   {
+    "parent": "Fashion-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 6.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_4": [
+   {
+    "parent": "Fashion-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 5.51,
+    "size": "L"
+   },
+   {
+    "parent": "Fashion-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 6.2,
+    "size": "M"
+   },
+   {
+    "parent": "Fashion-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 8.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_6": [
+   {
+    "parent": "Fashion-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 8.26,
+    "size": "L"
+   },
+   {
+    "parent": "Fashion-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 9.3,
+    "size": "M"
+   },
+   {
+    "parent": "Fashion-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 12.0,
+    "size": "S"
+   }
+  ],
+  "transaction_rebate": [],
+  "type": "Subvention"
+ },
+ {
+  "business_category": "Fashion",
+  "customer_acquisition_support": [],
+  "docstatus": 0,
+  "doctype": "Commercial Proposition Engine",
+  "entry_pricing": [
+   {
+    "parent": "Fashion-Low-Proposition-Subvention",
+    "parentfield": "entry_pricing",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 0.0,
+    "size": "L"
+   }
+  ],
+  "modified": "2024-11-11 17:18:08.798442",
+  "name": "Fashion-Low-Proposition-Subvention",
+  "offer_type": "Low-Proposition",
+  "subvention_pricing_12": [
+   {
+    "parent": "Fashion-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 14.52,
+    "size": "L"
+   },
+   {
+    "parent": "Fashion-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 16.6,
+    "size": "M"
+   },
+   {
+    "parent": "Fashion-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 24.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_3": [
+   {
+    "parent": "Fashion-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 3.63,
+    "size": "L"
+   },
+   {
+    "parent": "Fashion-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 4.15,
+    "size": "M"
+   },
+   {
+    "parent": "Fashion-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 6.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_4": [
+   {
+    "parent": "Fashion-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 4.84,
+    "size": "L"
+   },
+   {
+    "parent": "Fashion-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 5.53,
+    "size": "M"
+   },
+   {
+    "parent": "Fashion-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 8.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_6": [
+   {
+    "parent": "Fashion-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 7.26,
+    "size": "L"
+   },
+   {
+    "parent": "Fashion-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 8.3,
+    "size": "M"
+   },
+   {
+    "parent": "Fashion-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 12.0,
+    "size": "S"
+   }
+  ],
+  "transaction_rebate": [],
+  "type": "Subvention"
+ },
+ {
+  "business_category": "Furniture & Home Improvement",
+  "customer_acquisition_support": [],
+  "docstatus": 0,
+  "doctype": "Commercial Proposition Engine",
+  "entry_pricing": [
+   {
+    "parent": "Furniture & Home Improvement-None-Customer Acquisition Support",
+    "parentfield": "entry_pricing",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 0.0,
+    "size": "L"
+   }
+  ],
+  "modified": "2024-11-11 17:18:08.711381",
+  "name": "Furniture & Home Improvement-None-Customer Acquisition Support",
+  "offer_type": "None",
+  "subvention_pricing_12": [],
+  "subvention_pricing_3": [],
+  "subvention_pricing_4": [],
+  "subvention_pricing_6": [],
+  "transaction_rebate": [],
+  "type": "Customer Acquisition Support"
+ },
+ {
+  "business_category": "Furniture & Home Improvement",
+  "customer_acquisition_support": [],
+  "docstatus": 0,
+  "doctype": "Commercial Proposition Engine",
+  "entry_pricing": [
+   {
+    "parent": "Furniture & Home Improvement-Hi-Proposition-Subvention",
+    "parentfield": "entry_pricing",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 0.0,
+    "size": "L"
+   }
+  ],
+  "modified": "2024-11-11 17:18:08.633053",
+  "name": "Furniture & Home Improvement-Hi-Proposition-Subvention",
+  "offer_type": "Hi-Proposition",
+  "subvention_pricing_12": [
+   {
+    "parent": "Furniture & Home Improvement-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 18.52,
+    "size": "L"
+   },
+   {
+    "parent": "Furniture & Home Improvement-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 20.6,
+    "size": "M"
+   },
+   {
+    "parent": "Furniture & Home Improvement-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 24.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_3": [
+   {
+    "parent": "Furniture & Home Improvement-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 4.63,
+    "size": "L"
+   },
+   {
+    "parent": "Furniture & Home Improvement-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 5.15,
+    "size": "M"
+   },
+   {
+    "parent": "Furniture & Home Improvement-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 6.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_4": [
+   {
+    "parent": "Furniture & Home Improvement-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 6.17,
+    "size": "L"
+   },
+   {
+    "parent": "Furniture & Home Improvement-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 6.87,
+    "size": "M"
+   },
+   {
+    "parent": "Furniture & Home Improvement-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 8.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_6": [
+   {
+    "parent": "Furniture & Home Improvement-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 9.26,
+    "size": "L"
+   },
+   {
+    "parent": "Furniture & Home Improvement-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 10.3,
+    "size": "M"
+   },
+   {
+    "parent": "Furniture & Home Improvement-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 12.0,
+    "size": "S"
+   }
+  ],
+  "transaction_rebate": [],
+  "type": "Subvention"
+ },
+ {
+  "business_category": "Furniture & Home Improvement",
+  "customer_acquisition_support": [],
+  "docstatus": 0,
+  "doctype": "Commercial Proposition Engine",
+  "entry_pricing": [
+   {
+    "parent": "Furniture & Home Improvement-Med-Proposition-Subvention",
+    "parentfield": "entry_pricing",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 0.0,
+    "size": "L"
+   }
+  ],
+  "modified": "2024-11-11 17:18:08.507380",
+  "name": "Furniture & Home Improvement-Med-Proposition-Subvention",
+  "offer_type": "Med-Proposition",
+  "subvention_pricing_12": [
+   {
+    "parent": "Furniture & Home Improvement-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 16.52,
+    "size": "L"
+   },
+   {
+    "parent": "Furniture & Home Improvement-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 18.6,
+    "size": "M"
+   },
+   {
+    "parent": "Furniture & Home Improvement-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 24.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_3": [
+   {
+    "parent": "Furniture & Home Improvement-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 4.13,
+    "size": "L"
+   },
+   {
+    "parent": "Furniture & Home Improvement-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 4.65,
+    "size": "M"
+   },
+   {
+    "parent": "Furniture & Home Improvement-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 6.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_4": [
+   {
+    "parent": "Furniture & Home Improvement-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 5.51,
+    "size": "L"
+   },
+   {
+    "parent": "Furniture & Home Improvement-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 6.2,
+    "size": "M"
+   },
+   {
+    "parent": "Furniture & Home Improvement-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 8.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_6": [
+   {
+    "parent": "Furniture & Home Improvement-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 8.26,
+    "size": "L"
+   },
+   {
+    "parent": "Furniture & Home Improvement-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 9.3,
+    "size": "M"
+   },
+   {
+    "parent": "Furniture & Home Improvement-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 12.0,
+    "size": "S"
+   }
+  ],
+  "transaction_rebate": [],
+  "type": "Subvention"
+ },
+ {
+  "business_category": "Furniture & Home Improvement",
+  "customer_acquisition_support": [],
+  "docstatus": 0,
+  "doctype": "Commercial Proposition Engine",
+  "entry_pricing": [
+   {
+    "parent": "Furniture & Home Improvement-Low-Proposition-Subvention",
+    "parentfield": "entry_pricing",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 0.0,
+    "size": "L"
+   }
+  ],
+  "modified": "2024-11-11 17:18:08.383828",
+  "name": "Furniture & Home Improvement-Low-Proposition-Subvention",
+  "offer_type": "Low-Proposition",
+  "subvention_pricing_12": [
+   {
+    "parent": "Furniture & Home Improvement-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 14.52,
+    "size": "L"
+   },
+   {
+    "parent": "Furniture & Home Improvement-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 16.6,
+    "size": "M"
+   },
+   {
+    "parent": "Furniture & Home Improvement-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 24.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_3": [
+   {
+    "parent": "Furniture & Home Improvement-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 3.63,
+    "size": "L"
+   },
+   {
+    "parent": "Furniture & Home Improvement-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 4.15,
+    "size": "M"
+   },
+   {
+    "parent": "Furniture & Home Improvement-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 6.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_4": [
+   {
+    "parent": "Furniture & Home Improvement-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 4.84,
+    "size": "L"
+   },
+   {
+    "parent": "Furniture & Home Improvement-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 5.83,
+    "size": "M"
+   },
+   {
+    "parent": "Furniture & Home Improvement-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 8.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_6": [
+   {
+    "parent": "Furniture & Home Improvement-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 7.26,
+    "size": "L"
+   },
+   {
+    "parent": "Furniture & Home Improvement-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 8.3,
+    "size": "M"
+   },
+   {
+    "parent": "Furniture & Home Improvement-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 12.0,
+    "size": "S"
+   }
+  ],
+  "transaction_rebate": [],
+  "type": "Subvention"
+ },
+ {
+  "business_category": "Grocery",
+  "customer_acquisition_support": [],
+  "docstatus": 0,
+  "doctype": "Commercial Proposition Engine",
+  "entry_pricing": [
+   {
+    "parent": "Grocery-None-Customer Acquisition Support",
+    "parentfield": "entry_pricing",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 0.0,
+    "size": "L"
+   }
+  ],
+  "modified": "2024-11-11 17:18:08.290010",
+  "name": "Grocery-None-Customer Acquisition Support",
+  "offer_type": "None",
+  "subvention_pricing_12": [],
+  "subvention_pricing_3": [],
+  "subvention_pricing_4": [],
+  "subvention_pricing_6": [],
+  "transaction_rebate": [],
+  "type": "Customer Acquisition Support"
+ },
+ {
+  "business_category": "Market Place",
+  "customer_acquisition_support": [],
+  "docstatus": 0,
+  "doctype": "Commercial Proposition Engine",
+  "entry_pricing": [
+   {
+    "parent": "Market Place-None-Customer Acquisition Support",
+    "parentfield": "entry_pricing",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 0.0,
+    "size": "L"
+   }
+  ],
+  "modified": "2024-11-11 17:18:08.241075",
+  "name": "Market Place-None-Customer Acquisition Support",
+  "offer_type": "None",
+  "subvention_pricing_12": [],
+  "subvention_pricing_3": [],
+  "subvention_pricing_4": [],
+  "subvention_pricing_6": [],
+  "transaction_rebate": [],
+  "type": "Customer Acquisition Support"
+ },
+ {
+  "business_category": "Market Place",
+  "customer_acquisition_support": [],
+  "docstatus": 0,
+  "doctype": "Commercial Proposition Engine",
+  "entry_pricing": [
+   {
+    "parent": "Market Place-Hi-Proposition-Subvention",
+    "parentfield": "entry_pricing",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 0.0,
+    "size": "L"
+   }
+  ],
+  "modified": "2024-11-11 17:18:08.160556",
+  "name": "Market Place-Hi-Proposition-Subvention",
+  "offer_type": "Hi-Proposition",
+  "subvention_pricing_12": [
+   {
+    "parent": "Market Place-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 19.4,
+    "size": "L"
+   },
+   {
+    "parent": "Market Place-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 23.32,
+    "size": "M"
+   },
+   {
+    "parent": "Market Place-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 24.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_3": [
+   {
+    "parent": "Market Place-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 4.85,
+    "size": "L"
+   },
+   {
+    "parent": "Market Place-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 5.83,
+    "size": "M"
+   },
+   {
+    "parent": "Market Place-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 6.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_4": [
+   {
+    "parent": "Market Place-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 6.47,
+    "size": "L"
+   },
+   {
+    "parent": "Market Place-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 7.77,
+    "size": "M"
+   },
+   {
+    "parent": "Market Place-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 8.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_6": [
+   {
+    "parent": "Market Place-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 9.7,
+    "size": "L"
+   },
+   {
+    "parent": "Market Place-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 11.66,
+    "size": "M"
+   },
+   {
+    "parent": "Market Place-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 12.0,
+    "size": "S"
+   }
+  ],
+  "transaction_rebate": [],
+  "type": "Subvention"
+ },
+ {
+  "business_category": "Market Place",
+  "customer_acquisition_support": [],
+  "docstatus": 0,
+  "doctype": "Commercial Proposition Engine",
+  "entry_pricing": [
+   {
+    "parent": "Market Place-Med-Proposition-Subvention",
+    "parentfield": "entry_pricing",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 0.0,
+    "size": "L"
+   }
+  ],
+  "modified": "2024-11-11 17:18:08.041719",
+  "name": "Market Place-Med-Proposition-Subvention",
+  "offer_type": "Med-Proposition",
+  "subvention_pricing_12": [
+   {
+    "parent": "Market Place-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 17.4,
+    "size": "L"
+   },
+   {
+    "parent": "Market Place-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 21.32,
+    "size": "M"
+   },
+   {
+    "parent": "Market Place-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 24.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_3": [
+   {
+    "parent": "Market Place-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 4.35,
+    "size": "L"
+   },
+   {
+    "parent": "Market Place-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 5.33,
+    "size": "M"
+   },
+   {
+    "parent": "Market Place-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 6.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_4": [
+   {
+    "parent": "Market Place-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 5.8,
+    "size": "L"
+   },
+   {
+    "parent": "Market Place-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 7.11,
+    "size": "M"
+   },
+   {
+    "parent": "Market Place-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 8.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_6": [
+   {
+    "parent": "Market Place-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 8.7,
+    "size": "L"
+   },
+   {
+    "parent": "Market Place-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 10.66,
+    "size": "M"
+   },
+   {
+    "parent": "Market Place-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 12.0,
+    "size": "S"
+   }
+  ],
+  "transaction_rebate": [],
+  "type": "Subvention"
+ },
+ {
+  "business_category": "Market Place",
+  "customer_acquisition_support": [],
+  "docstatus": 0,
+  "doctype": "Commercial Proposition Engine",
+  "entry_pricing": [
+   {
+    "parent": "Market Place-Low-Proposition-Subvention",
+    "parentfield": "entry_pricing",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 0.0,
+    "size": "L"
+   }
+  ],
+  "modified": "2024-11-11 17:18:07.936749",
+  "name": "Market Place-Low-Proposition-Subvention",
+  "offer_type": "Low-Proposition",
+  "subvention_pricing_12": [
+   {
+    "parent": "Market Place-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 15.4,
+    "size": "L"
+   },
+   {
+    "parent": "Market Place-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 19.32,
+    "size": "M"
+   },
+   {
+    "parent": "Market Place-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 24.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_3": [
+   {
+    "parent": "Market Place-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 3.85,
+    "size": "L"
+   },
+   {
+    "parent": "Market Place-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 4.83,
+    "size": "M"
+   },
+   {
+    "parent": "Market Place-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 6.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_4": [
+   {
+    "parent": "Market Place-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 5.13,
+    "size": "L"
+   },
+   {
+    "parent": "Market Place-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 6.44,
+    "size": "M"
+   },
+   {
+    "parent": "Market Place-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 8.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_6": [
+   {
+    "parent": "Market Place-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 7.7,
+    "size": "L"
+   },
+   {
+    "parent": "Market Place-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 9.66,
+    "size": "M"
+   },
+   {
+    "parent": "Market Place-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 12.0,
+    "size": "S"
+   }
+  ],
+  "transaction_rebate": [],
+  "type": "Subvention"
+ },
+ {
+  "business_category": "Home Finishing",
+  "customer_acquisition_support": [],
+  "docstatus": 0,
+  "doctype": "Commercial Proposition Engine",
+  "entry_pricing": [
+   {
+    "parent": "Home Finishing-None-Customer Acquisition Support",
+    "parentfield": "entry_pricing",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 0.0,
+    "size": "L"
+   }
+  ],
+  "modified": "2024-11-11 17:18:07.866483",
+  "name": "Home Finishing-None-Customer Acquisition Support",
+  "offer_type": "None",
+  "subvention_pricing_12": [],
+  "subvention_pricing_3": [],
+  "subvention_pricing_4": [],
+  "subvention_pricing_6": [],
+  "transaction_rebate": [],
+  "type": "Customer Acquisition Support"
+ },
+ {
+  "business_category": "Home Finishing",
+  "customer_acquisition_support": [],
+  "docstatus": 0,
+  "doctype": "Commercial Proposition Engine",
+  "entry_pricing": [
+   {
+    "parent": "Home Finishing-Hi-Proposition-Subvention",
+    "parentfield": "entry_pricing",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 0.0,
+    "size": "L"
+   }
+  ],
+  "modified": "2024-11-11 17:18:07.808252",
+  "name": "Home Finishing-Hi-Proposition-Subvention",
+  "offer_type": "Hi-Proposition",
+  "subvention_pricing_12": [
+   {
+    "parent": "Home Finishing-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 18.52,
+    "size": "L"
+   },
+   {
+    "parent": "Home Finishing-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 20.6,
+    "size": "M"
+   },
+   {
+    "parent": "Home Finishing-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 24.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_3": [
+   {
+    "parent": "Home Finishing-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 4.63,
+    "size": "L"
+   },
+   {
+    "parent": "Home Finishing-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 5.15,
+    "size": "M"
+   },
+   {
+    "parent": "Home Finishing-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 6.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_4": [
+   {
+    "parent": "Home Finishing-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 6.17,
+    "size": "L"
+   },
+   {
+    "parent": "Home Finishing-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 6.87,
+    "size": "M"
+   },
+   {
+    "parent": "Home Finishing-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 8.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_6": [
+   {
+    "parent": "Home Finishing-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 9.26,
+    "size": "L"
+   },
+   {
+    "parent": "Home Finishing-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 10.3,
+    "size": "M"
+   },
+   {
+    "parent": "Home Finishing-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 12.0,
+    "size": "S"
+   }
+  ],
+  "transaction_rebate": [],
+  "type": "Subvention"
+ },
+ {
+  "business_category": "Home Finishing",
+  "customer_acquisition_support": [],
+  "docstatus": 0,
+  "doctype": "Commercial Proposition Engine",
+  "entry_pricing": [
+   {
+    "parent": "Home Finishing-Med-Proposition-Subvention",
+    "parentfield": "entry_pricing",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 0.0,
+    "size": "L"
+   }
+  ],
+  "modified": "2024-11-11 17:18:07.712387",
+  "name": "Home Finishing-Med-Proposition-Subvention",
+  "offer_type": "Med-Proposition",
+  "subvention_pricing_12": [
+   {
+    "parent": "Home Finishing-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 16.52,
+    "size": "L"
+   },
+   {
+    "parent": "Home Finishing-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 18.6,
+    "size": "M"
+   },
+   {
+    "parent": "Home Finishing-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 24.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_3": [
+   {
+    "parent": "Home Finishing-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 4.13,
+    "size": "L"
+   },
+   {
+    "parent": "Home Finishing-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 4.65,
+    "size": "M"
+   },
+   {
+    "parent": "Home Finishing-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 6.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_4": [
+   {
+    "parent": "Home Finishing-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 5.51,
+    "size": "L"
+   },
+   {
+    "parent": "Home Finishing-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 6.2,
+    "size": "M"
+   },
+   {
+    "parent": "Home Finishing-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 8.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_6": [
+   {
+    "parent": "Home Finishing-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 8.26,
+    "size": "L"
+   },
+   {
+    "parent": "Home Finishing-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 9.3,
+    "size": "M"
+   },
+   {
+    "parent": "Home Finishing-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 12.0,
+    "size": "S"
+   }
+  ],
+  "transaction_rebate": [],
+  "type": "Subvention"
+ },
+ {
+  "business_category": "Home Finishing",
+  "customer_acquisition_support": [],
+  "docstatus": 0,
+  "doctype": "Commercial Proposition Engine",
+  "entry_pricing": [
+   {
+    "parent": "Home Finishing-Low-Proposition-Subvention",
+    "parentfield": "entry_pricing",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 0.0,
+    "size": "L"
+   }
+  ],
+  "modified": "2024-11-11 17:18:07.595581",
+  "name": "Home Finishing-Low-Proposition-Subvention",
+  "offer_type": "Low-Proposition",
+  "subvention_pricing_12": [
+   {
+    "parent": "Home Finishing-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 14.52,
+    "size": "L"
+   },
+   {
+    "parent": "Home Finishing-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 16.6,
+    "size": "M"
+   },
+   {
+    "parent": "Home Finishing-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 24.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_3": [
+   {
+    "parent": "Home Finishing-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 3.63,
+    "size": "L"
+   },
+   {
+    "parent": "Home Finishing-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 4.15,
+    "size": "M"
+   },
+   {
+    "parent": "Home Finishing-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 6.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_4": [
+   {
+    "parent": "Home Finishing-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 4.84,
+    "size": "L"
+   },
+   {
+    "parent": "Home Finishing-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 5.53,
+    "size": "M"
+   },
+   {
+    "parent": "Home Finishing-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 8.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_6": [
+   {
+    "parent": "Home Finishing-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 7.26,
+    "size": "L"
+   },
+   {
+    "parent": "Home Finishing-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 8.3,
+    "size": "M"
+   },
+   {
+    "parent": "Home Finishing-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 12.0,
+    "size": "S"
+   }
+  ],
+  "transaction_rebate": [],
+  "type": "Subvention"
+ },
+ {
+  "business_category": "Gold and Jewelry",
+  "customer_acquisition_support": [],
+  "docstatus": 0,
+  "doctype": "Commercial Proposition Engine",
+  "entry_pricing": [
+   {
+    "parent": "Gold and Jewelry-None-Customer Acquisition Support",
+    "parentfield": "entry_pricing",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 0.0,
+    "size": "L"
+   }
+  ],
+  "modified": "2024-11-11 17:18:07.502601",
+  "name": "Gold and Jewelry-None-Customer Acquisition Support",
+  "offer_type": "None",
+  "subvention_pricing_12": [],
+  "subvention_pricing_3": [],
+  "subvention_pricing_4": [],
+  "subvention_pricing_6": [],
+  "transaction_rebate": [],
+  "type": "Customer Acquisition Support"
+ },
+ {
+  "business_category": "Gold and Jewelry",
+  "customer_acquisition_support": [],
+  "docstatus": 0,
+  "doctype": "Commercial Proposition Engine",
+  "entry_pricing": [
+   {
+    "parent": "Gold and Jewelry-Hi-Proposition-Subvention",
+    "parentfield": "entry_pricing",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 0.0,
+    "size": "L"
+   }
+  ],
+  "modified": "2024-11-11 17:18:07.427807",
+  "name": "Gold and Jewelry-Hi-Proposition-Subvention",
+  "offer_type": "Hi-Proposition",
+  "subvention_pricing_12": [
+   {
+    "parent": "Gold and Jewelry-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 18.52,
+    "size": "L"
+   },
+   {
+    "parent": "Gold and Jewelry-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 20.6,
+    "size": "M"
+   },
+   {
+    "parent": "Gold and Jewelry-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 24.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_3": [
+   {
+    "parent": "Gold and Jewelry-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 4.63,
+    "size": "L"
+   },
+   {
+    "parent": "Gold and Jewelry-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 5.15,
+    "size": "M"
+   },
+   {
+    "parent": "Gold and Jewelry-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 6.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_4": [
+   {
+    "parent": "Gold and Jewelry-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 6.17,
+    "size": "L"
+   },
+   {
+    "parent": "Gold and Jewelry-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 6.87,
+    "size": "M"
+   },
+   {
+    "parent": "Gold and Jewelry-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 8.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_6": [
+   {
+    "parent": "Gold and Jewelry-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 9.26,
+    "size": "L"
+   },
+   {
+    "parent": "Gold and Jewelry-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 10.3,
+    "size": "M"
+   },
+   {
+    "parent": "Gold and Jewelry-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 12.0,
+    "size": "S"
+   }
+  ],
+  "transaction_rebate": [],
+  "type": "Subvention"
+ },
+ {
+  "business_category": "Gold and Jewelry",
+  "customer_acquisition_support": [],
+  "docstatus": 0,
+  "doctype": "Commercial Proposition Engine",
+  "entry_pricing": [
+   {
+    "parent": "Gold and Jewelry-Med-Proposition-Subvention",
+    "parentfield": "entry_pricing",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 0.0,
+    "size": "L"
+   }
+  ],
+  "modified": "2024-11-11 17:18:07.312574",
+  "name": "Gold and Jewelry-Med-Proposition-Subvention",
+  "offer_type": "Med-Proposition",
+  "subvention_pricing_12": [
+   {
+    "parent": "Gold and Jewelry-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 16.52,
+    "size": "L"
+   },
+   {
+    "parent": "Gold and Jewelry-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 18.6,
+    "size": "M"
+   },
+   {
+    "parent": "Gold and Jewelry-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 24.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_3": [
+   {
+    "parent": "Gold and Jewelry-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 4.13,
+    "size": "L"
+   },
+   {
+    "parent": "Gold and Jewelry-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 4.65,
+    "size": "M"
+   },
+   {
+    "parent": "Gold and Jewelry-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 6.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_4": [
+   {
+    "parent": "Gold and Jewelry-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 5.51,
+    "size": "L"
+   },
+   {
+    "parent": "Gold and Jewelry-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 6.2,
+    "size": "M"
+   },
+   {
+    "parent": "Gold and Jewelry-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 8.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_6": [
+   {
+    "parent": "Gold and Jewelry-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 8.26,
+    "size": "L"
+   },
+   {
+    "parent": "Gold and Jewelry-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 9.3,
+    "size": "M"
+   },
+   {
+    "parent": "Gold and Jewelry-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 12.0,
+    "size": "S"
+   }
+  ],
+  "transaction_rebate": [],
+  "type": "Subvention"
+ },
+ {
+  "business_category": "Gold and Jewelry",
+  "customer_acquisition_support": [],
+  "docstatus": 0,
+  "doctype": "Commercial Proposition Engine",
+  "entry_pricing": [
+   {
+    "parent": "Gold and Jewelry-Low-Proposition-Subvention",
+    "parentfield": "entry_pricing",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 0.0,
+    "size": "L"
+   }
+  ],
+  "modified": "2024-11-11 17:18:07.209866",
+  "name": "Gold and Jewelry-Low-Proposition-Subvention",
+  "offer_type": "Low-Proposition",
+  "subvention_pricing_12": [
+   {
+    "parent": "Gold and Jewelry-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 14.52,
+    "size": "L"
+   },
+   {
+    "parent": "Gold and Jewelry-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 16.6,
+    "size": "M"
+   },
+   {
+    "parent": "Gold and Jewelry-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 24.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_3": [
+   {
+    "parent": "Gold and Jewelry-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 3.63,
+    "size": "L"
+   },
+   {
+    "parent": "Gold and Jewelry-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 4.15,
+    "size": "M"
+   },
+   {
+    "parent": "Gold and Jewelry-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 6.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_4": [
+   {
+    "parent": "Gold and Jewelry-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 4.84,
+    "size": "L"
+   },
+   {
+    "parent": "Gold and Jewelry-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 5.53,
+    "size": "M"
+   },
+   {
+    "parent": "Gold and Jewelry-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 8.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_6": [
+   {
+    "parent": "Gold and Jewelry-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 7.26,
+    "size": "L"
+   },
+   {
+    "parent": "Gold and Jewelry-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 8.3,
+    "size": "M"
+   },
+   {
+    "parent": "Gold and Jewelry-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 12.0,
+    "size": "S"
+   }
+  ],
+  "transaction_rebate": [],
+  "type": "Subvention"
+ },
+ {
+  "business_category": "Aggregator",
+  "customer_acquisition_support": [],
+  "docstatus": 0,
+  "doctype": "Commercial Proposition Engine",
+  "entry_pricing": [
+   {
+    "parent": "Aggregator-None-Customer Acquisition Support",
+    "parentfield": "entry_pricing",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 0.0,
+    "size": "L"
+   }
+  ],
+  "modified": "2024-11-11 17:18:07.131334",
+  "name": "Aggregator-None-Customer Acquisition Support",
+  "offer_type": "None",
+  "subvention_pricing_12": [],
+  "subvention_pricing_3": [],
+  "subvention_pricing_4": [],
+  "subvention_pricing_6": [],
+  "transaction_rebate": [],
+  "type": "Customer Acquisition Support"
+ },
+ {
+  "business_category": "Insurance",
+  "customer_acquisition_support": [],
+  "docstatus": 0,
+  "doctype": "Commercial Proposition Engine",
+  "entry_pricing": [
+   {
+    "parent": "Insurance-None-Customer Acquisition Support",
+    "parentfield": "entry_pricing",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 0.0,
+    "size": "L"
+   }
+  ],
+  "modified": "2024-11-11 17:18:07.093586",
+  "name": "Insurance-None-Customer Acquisition Support",
+  "offer_type": "None",
+  "subvention_pricing_12": [],
+  "subvention_pricing_3": [],
+  "subvention_pricing_4": [],
+  "subvention_pricing_6": [],
+  "transaction_rebate": [],
+  "type": "Customer Acquisition Support"
+ },
+ {
+  "business_category": "Automotives",
+  "customer_acquisition_support": [],
+  "docstatus": 0,
+  "doctype": "Commercial Proposition Engine",
+  "entry_pricing": [
+   {
+    "parent": "Automotives-None-Customer Acquisition Support",
+    "parentfield": "entry_pricing",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 0.0,
+    "size": "L"
+   }
+  ],
+  "modified": "2024-11-11 17:18:07.056633",
+  "name": "Automotives-None-Customer Acquisition Support",
+  "offer_type": "None",
+  "subvention_pricing_12": [],
+  "subvention_pricing_3": [],
+  "subvention_pricing_4": [],
+  "subvention_pricing_6": [],
+  "transaction_rebate": [],
+  "type": "Customer Acquisition Support"
+ },
+ {
+  "business_category": "Entertainment",
+  "customer_acquisition_support": [],
+  "docstatus": 0,
+  "doctype": "Commercial Proposition Engine",
+  "entry_pricing": [
+   {
+    "parent": "Entertainment-None-Customer Acquisition Support",
+    "parentfield": "entry_pricing",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 0.0,
+    "size": "L"
+   }
+  ],
+  "modified": "2024-11-11 17:18:07.018276",
+  "name": "Entertainment-None-Customer Acquisition Support",
+  "offer_type": "None",
+  "subvention_pricing_12": [],
+  "subvention_pricing_3": [],
+  "subvention_pricing_4": [],
+  "subvention_pricing_6": [],
+  "transaction_rebate": [],
+  "type": "Customer Acquisition Support"
+ },
+ {
+  "business_category": "Entertainment",
+  "customer_acquisition_support": [],
+  "docstatus": 0,
+  "doctype": "Commercial Proposition Engine",
+  "entry_pricing": [
+   {
+    "parent": "Entertainment-Hi-Proposition-Subvention",
+    "parentfield": "entry_pricing",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 0.0,
+    "size": "L"
+   }
+  ],
+  "modified": "2024-11-11 17:18:06.954799",
+  "name": "Entertainment-Hi-Proposition-Subvention",
+  "offer_type": "Hi-Proposition",
+  "subvention_pricing_12": [
+   {
+    "parent": "Entertainment-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 18.52,
+    "size": "L"
+   },
+   {
+    "parent": "Entertainment-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 20.6,
+    "size": "M"
+   },
+   {
+    "parent": "Entertainment-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 24.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_3": [
+   {
+    "parent": "Entertainment-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 4.63,
+    "size": "L"
+   },
+   {
+    "parent": "Entertainment-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 5.15,
+    "size": "M"
+   },
+   {
+    "parent": "Entertainment-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 6.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_4": [
+   {
+    "parent": "Entertainment-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 6.17,
+    "size": "L"
+   },
+   {
+    "parent": "Entertainment-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 6.87,
+    "size": "M"
+   },
+   {
+    "parent": "Entertainment-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 8.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_6": [
+   {
+    "parent": "Entertainment-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 9.26,
+    "size": "L"
+   },
+   {
+    "parent": "Entertainment-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 10.3,
+    "size": "M"
+   },
+   {
+    "parent": "Entertainment-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 12.0,
+    "size": "S"
+   }
+  ],
+  "transaction_rebate": [],
+  "type": "Subvention"
+ },
+ {
+  "business_category": "Entertainment",
+  "customer_acquisition_support": [],
+  "docstatus": 0,
+  "doctype": "Commercial Proposition Engine",
+  "entry_pricing": [
+   {
+    "parent": "Entertainment-Med-Proposition-Subvention",
+    "parentfield": "entry_pricing",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 0.0,
+    "size": "L"
+   }
+  ],
+  "modified": "2024-11-11 17:18:06.863659",
+  "name": "Entertainment-Med-Proposition-Subvention",
+  "offer_type": "Med-Proposition",
+  "subvention_pricing_12": [
+   {
+    "parent": "Entertainment-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 16.52,
+    "size": "L"
+   },
+   {
+    "parent": "Entertainment-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 18.6,
+    "size": "M"
+   },
+   {
+    "parent": "Entertainment-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 24.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_3": [
+   {
+    "parent": "Entertainment-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 4.13,
+    "size": "L"
+   },
+   {
+    "parent": "Entertainment-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 4.65,
+    "size": "M"
+   },
+   {
+    "parent": "Entertainment-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 6.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_4": [
+   {
+    "parent": "Entertainment-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 5.51,
+    "size": "L"
+   },
+   {
+    "parent": "Entertainment-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 6.2,
+    "size": "M"
+   },
+   {
+    "parent": "Entertainment-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 8.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_6": [
+   {
+    "parent": "Entertainment-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 8.26,
+    "size": "L"
+   },
+   {
+    "parent": "Entertainment-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 9.3,
+    "size": "M"
+   },
+   {
+    "parent": "Entertainment-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 12.0,
+    "size": "S"
+   }
+  ],
+  "transaction_rebate": [],
+  "type": "Subvention"
+ },
+ {
+  "business_category": "Entertainment",
+  "customer_acquisition_support": [],
+  "docstatus": 0,
+  "doctype": "Commercial Proposition Engine",
+  "entry_pricing": [
+   {
+    "parent": "Entertainment-Low-Proposition-Subvention",
+    "parentfield": "entry_pricing",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 0.0,
+    "size": "L"
+   }
+  ],
+  "modified": "2024-11-11 17:18:06.775224",
+  "name": "Entertainment-Low-Proposition-Subvention",
+  "offer_type": "Low-Proposition",
+  "subvention_pricing_12": [
+   {
+    "parent": "Entertainment-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 14.52,
+    "size": "L"
+   },
+   {
+    "parent": "Entertainment-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 16.6,
+    "size": "M"
+   },
+   {
+    "parent": "Entertainment-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 24.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_3": [
+   {
+    "parent": "Entertainment-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 3.63,
+    "size": "L"
+   },
+   {
+    "parent": "Entertainment-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 4.15,
+    "size": "M"
+   },
+   {
+    "parent": "Entertainment-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 6.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_4": [
+   {
+    "parent": "Entertainment-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 4.84,
+    "size": "L"
+   },
+   {
+    "parent": "Entertainment-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 5.53,
+    "size": "M"
+   },
+   {
+    "parent": "Entertainment-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 8.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_6": [
+   {
+    "parent": "Entertainment-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 7.26,
+    "size": "L"
+   },
+   {
+    "parent": "Entertainment-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 8.3,
+    "size": "M"
+   },
+   {
+    "parent": "Entertainment-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 12.0,
+    "size": "S"
+   }
+  ],
+  "transaction_rebate": [],
+  "type": "Subvention"
+ },
+ {
+  "business_category": "Healthcare",
+  "customer_acquisition_support": [],
+  "docstatus": 0,
+  "doctype": "Commercial Proposition Engine",
+  "entry_pricing": [
+   {
+    "parent": "Healthcare-None-Customer Acquisition Support",
+    "parentfield": "entry_pricing",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 0.0,
+    "size": "L"
+   }
+  ],
+  "modified": "2024-11-11 17:18:06.708744",
+  "name": "Healthcare-None-Customer Acquisition Support",
+  "offer_type": "None",
+  "subvention_pricing_12": [],
+  "subvention_pricing_3": [],
+  "subvention_pricing_4": [],
+  "subvention_pricing_6": [],
+  "transaction_rebate": [],
+  "type": "Customer Acquisition Support"
+ },
+ {
+  "business_category": "Healthcare",
+  "customer_acquisition_support": [],
+  "docstatus": 0,
+  "doctype": "Commercial Proposition Engine",
+  "entry_pricing": [
+   {
+    "parent": "Healthcare-Hi-Proposition-Subvention",
+    "parentfield": "entry_pricing",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 0.0,
+    "size": "L"
+   }
+  ],
+  "modified": "2024-11-11 17:18:06.629777",
+  "name": "Healthcare-Hi-Proposition-Subvention",
+  "offer_type": "Hi-Proposition",
+  "subvention_pricing_12": [
+   {
+    "parent": "Healthcare-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 19.12,
+    "size": "L"
+   },
+   {
+    "parent": "Healthcare-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 23.6,
+    "size": "M"
+   },
+   {
+    "parent": "Healthcare-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 24.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_3": [
+   {
+    "parent": "Healthcare-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 4.78,
+    "size": "L"
+   },
+   {
+    "parent": "Healthcare-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 5.9,
+    "size": "M"
+   },
+   {
+    "parent": "Healthcare-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 6.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_4": [
+   {
+    "parent": "Healthcare-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 6.37,
+    "size": "L"
+   },
+   {
+    "parent": "Healthcare-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 7.87,
+    "size": "M"
+   },
+   {
+    "parent": "Healthcare-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 8.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_6": [
+   {
+    "parent": "Healthcare-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 9.56,
+    "size": "L"
+   },
+   {
+    "parent": "Healthcare-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 11.8,
+    "size": "M"
+   },
+   {
+    "parent": "Healthcare-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 12.0,
+    "size": "S"
+   }
+  ],
+  "transaction_rebate": [],
+  "type": "Subvention"
+ },
+ {
+  "business_category": "Healthcare",
+  "customer_acquisition_support": [],
+  "docstatus": 0,
+  "doctype": "Commercial Proposition Engine",
+  "entry_pricing": [
+   {
+    "parent": "Healthcare-Med-Proposition-Subvention",
+    "parentfield": "entry_pricing",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 0.0,
+    "size": "L"
+   }
+  ],
+  "modified": "2024-11-11 17:18:06.524976",
+  "name": "Healthcare-Med-Proposition-Subvention",
+  "offer_type": "Med-Proposition",
+  "subvention_pricing_12": [
+   {
+    "parent": "Healthcare-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 17.12,
+    "size": "L"
+   },
+   {
+    "parent": "Healthcare-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 21.6,
+    "size": "M"
+   },
+   {
+    "parent": "Healthcare-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 24.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_3": [
+   {
+    "parent": "Healthcare-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 4.28,
+    "size": "L"
+   },
+   {
+    "parent": "Healthcare-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 5.4,
+    "size": "M"
+   },
+   {
+    "parent": "Healthcare-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 6.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_4": [
+   {
+    "parent": "Healthcare-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 5.71,
+    "size": "L"
+   },
+   {
+    "parent": "Healthcare-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 7.2,
+    "size": "M"
+   },
+   {
+    "parent": "Healthcare-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 8.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_6": [
+   {
+    "parent": "Healthcare-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 8.56,
+    "size": "L"
+   },
+   {
+    "parent": "Healthcare-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 10.8,
+    "size": "M"
+   },
+   {
+    "parent": "Healthcare-Med-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 12.0,
+    "size": "S"
+   }
+  ],
+  "transaction_rebate": [],
+  "type": "Subvention"
+ },
+ {
+  "business_category": "Healthcare",
+  "customer_acquisition_support": [],
+  "docstatus": 0,
+  "doctype": "Commercial Proposition Engine",
+  "entry_pricing": [
+   {
+    "parent": "Healthcare-Low-Proposition-Subvention",
+    "parentfield": "entry_pricing",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 0.0,
+    "size": "L"
+   }
+  ],
+  "modified": "2024-11-11 17:18:06.433440",
+  "name": "Healthcare-Low-Proposition-Subvention",
+  "offer_type": "Low-Proposition",
+  "subvention_pricing_12": [
+   {
+    "parent": "Healthcare-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 15.12,
+    "size": "L"
+   },
+   {
+    "parent": "Healthcare-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 19.6,
+    "size": "M"
+   },
+   {
+    "parent": "Healthcare-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 24.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_3": [
+   {
+    "parent": "Healthcare-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 3.78,
+    "size": "L"
+   },
+   {
+    "parent": "Healthcare-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 4.9,
+    "size": "M"
+   },
+   {
+    "parent": "Healthcare-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 6.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_4": [
+   {
+    "parent": "Healthcare-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 5.04,
+    "size": "L"
+   },
+   {
+    "parent": "Healthcare-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 6.53,
+    "size": "M"
+   },
+   {
+    "parent": "Healthcare-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 8.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_6": [
+   {
+    "parent": "Healthcare-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 7.56,
+    "size": "L"
+   },
+   {
+    "parent": "Healthcare-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 9.8,
+    "size": "M"
+   },
+   {
+    "parent": "Healthcare-Low-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 12.0,
+    "size": "S"
+   }
+  ],
+  "transaction_rebate": [],
+  "type": "Subvention"
+ },
+ {
+  "business_category": "Telecom Operators",
+  "customer_acquisition_support": [],
+  "docstatus": 0,
+  "doctype": "Commercial Proposition Engine",
+  "entry_pricing": [
+   {
+    "parent": "Telecom Operators-None-Customer Acquisition Support",
+    "parentfield": "entry_pricing",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 0.0,
+    "size": "L"
+   }
+  ],
+  "modified": "2024-11-11 17:18:06.357454",
+  "name": "Telecom Operators-None-Customer Acquisition Support",
+  "offer_type": "None",
+  "subvention_pricing_12": [],
+  "subvention_pricing_3": [],
+  "subvention_pricing_4": [],
+  "subvention_pricing_6": [],
+  "transaction_rebate": [],
+  "type": "Customer Acquisition Support"
+ },
+ {
+  "business_category": "Electronics",
+  "customer_acquisition_support": [],
+  "docstatus": 0,
+  "doctype": "Commercial Proposition Engine",
+  "entry_pricing": [
+   {
+    "parent": "Electronics-Hi-Proposition-Subvention",
+    "parentfield": "entry_pricing",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 0.0,
+    "size": "L"
+   }
+  ],
+  "modified": "2024-11-11 17:18:09.491134",
+  "name": "Electronics-Hi-Proposition-Subvention",
+  "offer_type": "Hi-Proposition",
+  "subvention_pricing_12": [
+   {
+    "parent": "Electronics-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 18.52,
+    "size": "L"
+   },
+   {
+    "parent": "Electronics-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 20.6,
+    "size": "M"
+   },
+   {
+    "parent": "Electronics-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_12",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 24.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_3": [
+   {
+    "parent": "Electronics-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 4.63,
+    "size": "L"
+   },
+   {
+    "parent": "Electronics-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 5.15,
+    "size": "M"
+   },
+   {
+    "parent": "Electronics-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_3",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 6.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_4": [
+   {
+    "parent": "Electronics-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 6.17,
+    "size": "L"
+   },
+   {
+    "parent": "Electronics-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 6.87,
+    "size": "M"
+   },
+   {
+    "parent": "Electronics-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_4",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 8.0,
+    "size": "S"
+   }
+  ],
+  "subvention_pricing_6": [
+   {
+    "parent": "Electronics-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 9.26,
+    "size": "L"
+   },
+   {
+    "parent": "Electronics-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 10.3,
+    "size": "M"
+   },
+   {
+    "parent": "Electronics-Hi-Proposition-Subvention",
+    "parentfield": "subvention_pricing_6",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 12.0,
+    "size": "S"
+   }
+  ],
+  "transaction_rebate": [],
+  "type": "Subvention"
+ },
+ {
+  "business_category": "Electronics",
+  "customer_acquisition_support": [],
+  "docstatus": 0,
+  "doctype": "Commercial Proposition Engine",
+  "entry_pricing": [
+   {
+    "parent": "Electronics-None-Customer Acquisition Support",
+    "parentfield": "entry_pricing",
+    "parenttype": "Commercial Proposition Engine",
+    "percent": 0.0,
+    "size": "L"
+   }
+  ],
+  "modified": "2024-11-11 17:18:09.557341",
+  "name": "Electronics-None-Customer Acquisition Support",
+  "offer_type": "None",
+  "subvention_pricing_12": [],
+  "subvention_pricing_3": [],
+  "subvention_pricing_4": [],
+  "subvention_pricing_6": [],
+  "transaction_rebate": [],
+  "type": "Customer Acquisition Support"
+ }
+]

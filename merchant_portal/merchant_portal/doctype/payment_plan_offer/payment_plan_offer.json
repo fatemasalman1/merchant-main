@@ -1,0 +1,59 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-09-16 10:13:10.963630",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "payment_plan_offer",
+  "investment",
+  "selection",
+  "months"
+ ],
+ "fields": [
+  {
+   "columns": 4,
+   "fieldname": "payment_plan_offer",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Payment Plan Offer",
+   "reqd": 1
+  },
+  {
+   "columns": 4,
+   "fieldname": "investment",
+   "fieldtype": "Percent",
+   "in_list_view": 1,
+   "label": "Investment",
+   "reqd": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "columns": 2,
+   "default": "0",
+   "fieldname": "selection",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Selection"
+  },
+  {
+   "fieldname": "months",
+   "fieldtype": "Int",
+   "label": "Months",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-10-26 19:15:25.352781",
+ "modified_by": "Administrator",
+ "module": "Merchant Portal",
+ "name": "Payment Plan Offer",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

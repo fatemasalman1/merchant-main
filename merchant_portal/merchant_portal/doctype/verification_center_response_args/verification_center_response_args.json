@@ -1,0 +1,49 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-11-21 13:41:19.427770",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "argument_name",
+  "type",
+  "related_field"
+ ],
+ "fields": [
+  {
+   "fieldname": "type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Type",
+   "options": "Text\nFile",
+   "reqd": 1
+  },
+  {
+   "fieldname": "argument_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Argument Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "related_field",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Related Field",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-11-21 13:46:54.094304",
+ "modified_by": "Administrator",
+ "module": "Merchant Portal",
+ "name": "Verification Center Response args",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

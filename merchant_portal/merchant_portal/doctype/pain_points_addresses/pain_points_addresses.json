@@ -1,0 +1,39 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-09-22 08:06:43.472595",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "pain_points",
+  "description"
+ ],
+ "fields": [
+  {
+   "fieldname": "pain_points",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "\u00a0Pain Points",
+   "options": "Pain Points Addressed"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Text",
+   "in_list_view": 1,
+   "label": "Description"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-09-22 08:52:33.085163",
+ "modified_by": "Administrator",
+ "module": "Merchant Portal",
+ "name": "Pain Points Addresses",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

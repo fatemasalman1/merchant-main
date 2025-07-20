@@ -1,0 +1,388 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:MO_{merchant}-{#}",
+ "creation": "2024-09-30 12:38:42.930113",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "commercial_proposition",
+  "status",
+  "column_break_avrc",
+  "merchant",
+  "decline_reason",
+  "column_break_vcze",
+  "commercial_proposition_type",
+  "feedback",
+  "section_break_wcdo",
+  "offer_type",
+  "co_markting_q",
+  "column_break_dfwa",
+  "business_category",
+  "seen_by_merchant",
+  "seen_datetime",
+  "get_seen",
+  "column_break_ejxt",
+  "size",
+  "user",
+  "offer_period_section",
+  "valid_for",
+  "column_break_nafu",
+  "offer_start_date",
+  "offer_end_date",
+  "pricing_section",
+  "monthly_price",
+  "type",
+  "customer_acquisition",
+  "entry_support_percentage",
+  "column_break_esns",
+  "payment_plan_offer"
+ ],
+ "fields": [
+  {
+   "fieldname": "commercial_proposition",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Commercial Proposition",
+   "options": "Commercial Proposition",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "merchant",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Merchant",
+   "options": "Merchant",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_avrc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "commercial_proposition_type",
+   "fieldtype": "Select",
+   "label": "Commercial Proposition Type",
+   "options": "New\nRenewal",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_vcze",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_wcdo",
+   "fieldtype": "Section Break",
+   "label": "Pricing Setting"
+  },
+  {
+   "fieldname": "offer_type",
+   "fieldtype": "Select",
+   "label": "Offer Type",
+   "options": "\nHi-Proposition\nMed-Proposition\nLow-Proposition",
+   "read_only": 1
+  },
+  {
+   "fieldname": "business_category",
+   "fieldtype": "Link",
+   "label": "Business Category",
+   "options": "Merchant Business Category",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_dfwa",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "size",
+   "fieldtype": "Select",
+   "label": "Size",
+   "options": "L\nM\nS",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_ejxt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "co_markting_q",
+   "fieldtype": "Select",
+   "label": "Are you willing to Co-markting?",
+   "options": "Yes\nNo",
+   "read_only": 1
+  },
+  {
+   "fieldname": "pricing_section",
+   "fieldtype": "Section Break",
+   "label": "Pricing"
+  },
+  {
+   "fieldname": "monthly_price",
+   "fieldtype": "Percent",
+   "label": "Monthly Price",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "type",
+   "fieldtype": "Data",
+   "label": "Type",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "customer_acquisition",
+   "fieldtype": "Data",
+   "label": "Customer Acquisition (SR/Booking)",
+   "read_only": 1
+  },
+  {
+   "fieldname": "entry_support_percentage",
+   "fieldtype": "Data",
+   "label": "Entry Support Percentage",
+   "read_only": 1
+  },
+  {
+   "default": "Waiting For Response",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Waiting For Response\nAccepted\nNegotiate\nExpired\nClosed",
+   "read_only": 1
+  },
+  {
+   "fieldname": "payment_plan_offer",
+   "fieldtype": "Table",
+   "options": "Payment Plan Offer",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_esns",
+   "fieldtype": "Column Break",
+   "read_only": 1
+  },
+  {
+   "depends_on": "eval:doc.status==\"Negotiate\"",
+   "fieldname": "decline_reason",
+   "fieldtype": "Link",
+   "label": "Decline Reason",
+   "options": "Offer Decline Reason",
+   "read_only": 1
+  },
+  {
+   "depends_on": "eval:doc.status==\"Negotiate\"",
+   "fieldname": "feedback",
+   "fieldtype": "Small Text",
+   "label": "FeedBack",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "seen_by_merchant",
+   "fieldtype": "Check",
+   "label": "Seen By Merchant",
+   "read_only": 1
+  },
+  {
+   "fieldname": "seen_datetime",
+   "fieldtype": "Datetime",
+   "label": "Seen DateTime",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "merchant.user",
+   "fieldname": "user",
+   "fieldtype": "Link",
+   "label": "User",
+   "options": "User",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "get_seen",
+   "fieldtype": "Check",
+   "hidden": 1,
+   "label": "Get Seen",
+   "read_only": 1
+  },
+  {
+   "fieldname": "valid_for",
+   "fieldtype": "Data",
+   "label": "Valid For",
+   "read_only": 1
+  },
+  {
+   "fieldname": "offer_period_section",
+   "fieldtype": "Section Break",
+   "label": "Offer Period"
+  },
+  {
+   "fieldname": "column_break_nafu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "offer_start_date",
+   "fieldtype": "Date",
+   "label": " Offer Start Date",
+   "read_only": 1
+  },
+  {
+   "fieldname": "offer_end_date",
+   "fieldtype": "Date",
+   "label": "Offer End Date",
+   "read_only": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "in_create": 1,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-05-06 12:28:23.203964",
+ "modified_by": "Administrator",
+ "module": "Merchant Portal",
+ "name": "Merchant Offer",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Commercial  Officer",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Commercial Chief",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Head of Commercial",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Merchant",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Risk Team",
+   "share": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Head of Finance",
+   "share": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Merchant Portal Admin",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Legal Officer",
+   "share": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Accounts Manager",
+   "share": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [
+  {
+   "color": "Blue",
+   "title": "Pending"
+  },
+  {
+   "color": "Light Blue",
+   "title": "Offered"
+  },
+  {
+   "color": "Gray",
+   "title": "Waiting Ror Response"
+  },
+  {
+   "color": "Green",
+   "title": "Accepted"
+  },
+  {
+   "color": "Yellow",
+   "title": "Negotiate"
+  },
+  {
+   "color": "Red",
+   "title": "Closed"
+  },
+  {
+   "color": "Red",
+   "title": "Expired"
+  }
+ ],
+ "track_changes": 1,
+ "track_seen": 1,
+ "track_views": 1
+}

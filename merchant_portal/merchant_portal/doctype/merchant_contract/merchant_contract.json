@@ -1,0 +1,699 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:MC-{######}",
+ "creation": "2024-10-14 20:17:51.984387",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "signed_contract_section",
+  "signed_contract",
+  "subject",
+  "column_break_rjjq",
+  "signed_contract_status",
+  "message",
+  "section_break_qmhw",
+  "merchant",
+  "status",
+  "user",
+  "column_break_iysc",
+  "commercial_proposition",
+  "merchant_offer",
+  "company_name",
+  "column_break_eijq",
+  "posting_date",
+  "hijiri_date",
+  "end_date",
+  "offer_details_section",
+  "monthly_price",
+  "type",
+  "customer_acquisition_srbooking",
+  "column_break_shja",
+  "entry_support_percentage",
+  "payment_plan_offer",
+  "investment",
+  "contract_document_section",
+  "contract_document",
+  "not_first_time",
+  "ready_to_send",
+  "section_break_u5po",
+  "amended_from",
+  "pdf_content_tab",
+  "contract_pdf_section",
+  "pdf_file",
+  "company_representative_section",
+  "company_representative_templete",
+  "representative_name",
+  "column_break_xsye",
+  "job_title",
+  "merchant_representative_section",
+  "commercial_register",
+  "merchant_name",
+  "merchant_job_title",
+  "issue_date",
+  "merchant_mail",
+  "merchant_zip_code",
+  "address",
+  "fax",
+  "column_break_vbwm",
+  "merchant_building_number",
+  "merchant_unit_number",
+  "merchant_street_name",
+  "merchant_district_name",
+  "postal_box_1",
+  "postal_box_2",
+  "telephone_1",
+  "section_break_idsw",
+  "template",
+  "stop_the_service_days",
+  "column_break_ebqp",
+  "late_fine_days",
+  "late_fine_percentage"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_u5po",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Merchant Contract",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "merchant",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Merchant",
+   "options": "Merchant",
+   "read_only": 1
+  },
+  {
+   "fieldname": "merchant_offer",
+   "fieldtype": "Link",
+   "label": "Merchant Offer",
+   "options": "Merchant Offer",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_iysc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_eijq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "commercial_proposition",
+   "fieldtype": "Link",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "label": "Commercial Proposition",
+   "options": "Commercial Proposition",
+   "read_only": 1
+  },
+  {
+   "fieldname": "offer_details_section",
+   "fieldtype": "Section Break",
+   "label": "Offer Details"
+  },
+  {
+   "fieldname": "monthly_price",
+   "fieldtype": "Currency",
+   "label": "Monthly Price (Subvention Rate)",
+   "read_only": 1
+  },
+  {
+   "fieldname": "type",
+   "fieldtype": "Data",
+   "label": "Type",
+   "read_only": 1
+  },
+  {
+   "fieldname": "customer_acquisition_srbooking",
+   "fieldtype": "Data",
+   "label": "Customer Acquisition (SR/Booking)",
+   "read_only": 1
+  },
+  {
+   "fieldname": "entry_support_percentage",
+   "fieldtype": "Data",
+   "label": "Entry Support Percentage",
+   "read_only": 1
+  },
+  {
+   "fieldname": "payment_plan_offer",
+   "fieldtype": "Data",
+   "label": "Tenure",
+   "read_only": 1
+  },
+  {
+   "fieldname": "investment",
+   "fieldtype": "Percent",
+   "label": "Investment ",
+   "read_only": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Status",
+   "no_copy": 1,
+   "options": "Pending\nPending (Waiting Review)\nSent To Merchant\nFeedback Received\nMerchant Accepted\nWaiting Review Uploaded Contract\nWaiting Merchant Upload\nWaiting Merchant Upload Contract\nContracted\nClosed",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_shja",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "company_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Company Name"
+  },
+  {
+   "fieldname": "posting_date",
+   "fieldtype": "Date",
+   "label": "Contract Start Date",
+   "no_copy": 1
+  },
+  {
+   "fieldname": "hijiri_date",
+   "fieldtype": "Date",
+   "label": "Hijiri Date",
+   "no_copy": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "contract_document_section",
+   "fieldtype": "Section Break",
+   "label": "Contract Document"
+  },
+  {
+   "fieldname": "end_date",
+   "fieldtype": "Date",
+   "label": "End Date"
+  },
+  {
+   "fieldname": "contract_document",
+   "fieldtype": "Table",
+   "ignore_user_permissions": 1,
+   "no_copy": 1,
+   "options": "Merchant Contract Document",
+   "read_only": 1
+  },
+  {
+   "fieldname": "commercial_register",
+   "fieldtype": "Data",
+   "label": "Commercial Register",
+   "read_only": 1
+  },
+  {
+   "fieldname": "pdf_content_tab",
+   "fieldtype": "Tab Break",
+   "label": "Contract PDF Content"
+  },
+  {
+   "fieldname": "company_representative_section",
+   "fieldtype": "Section Break",
+   "label": "Company Representative"
+  },
+  {
+   "fetch_from": "company_representative_templete.representative_name",
+   "fieldname": "representative_name",
+   "fieldtype": "Data",
+   "label": "Representative Name"
+  },
+  {
+   "fieldname": "column_break_xsye",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "company_representative_templete.job_title",
+   "fieldname": "job_title",
+   "fieldtype": "Data",
+   "label": "Job Title"
+  },
+  {
+   "fieldname": "merchant_representative_section",
+   "fieldtype": "Section Break",
+   "label": "Merchant Representative"
+  },
+  {
+   "fieldname": "issue_date",
+   "fieldtype": "Data",
+   "label": "Issue Date"
+  },
+  {
+   "fieldname": "merchant_mail",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "column_break_vbwm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "merchant_name",
+   "fieldtype": "Data",
+   "label": "Merchant Representative",
+   "permlevel": 1
+  },
+  {
+   "fieldname": "merchant_job_title",
+   "fieldtype": "Data",
+   "label": "Job Title",
+   "permlevel": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "not_first_time",
+   "fieldtype": "Check",
+   "hidden": 1,
+   "label": "Not First Time",
+   "no_copy": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "ready_to_send",
+   "fieldtype": "Check",
+   "hidden": 1,
+   "label": "Ready To Send"
+  },
+  {
+   "fieldname": "section_break_idsw",
+   "fieldtype": "Section Break",
+   "label": " Price and method of payment (financial obligations):"
+  },
+  {
+   "fetch_from": "template.stop_the_service_days",
+   "fieldname": "stop_the_service_days",
+   "fieldtype": "Data",
+   "label": "Stop the service (Days)",
+   "non_negative": 1,
+   "read_only": 1
+  },
+  {
+   "fetch_from": "template.late_fine_days",
+   "fieldname": "late_fine_days",
+   "fieldtype": "Data",
+   "label": "Late Fine (Days)",
+   "non_negative": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_ebqp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "template.late_fine_percentage",
+   "fieldname": "late_fine_percentage",
+   "fieldtype": "Data",
+   "label": "Late Fine(Percentage)",
+   "read_only": 1
+  },
+  {
+   "fieldname": "template",
+   "fieldtype": "Link",
+   "label": "Template",
+   "options": "Price and method of payment template",
+   "reqd": 1
+  },
+  {
+   "fieldname": "contract_pdf_section",
+   "fieldtype": "Section Break",
+   "label": "Contract PDF",
+   "read_only": 1
+  },
+  {
+   "fieldname": "pdf_file",
+   "fieldtype": "Attach",
+   "label": "PDF File",
+   "read_only": 1
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "label": "Address"
+  },
+  {
+   "fieldname": "merchant_building_number",
+   "fieldtype": "Data",
+   "label": "Building Number"
+  },
+  {
+   "fieldname": "merchant_zip_code",
+   "fieldtype": "Data",
+   "label": "ZIP Code"
+  },
+  {
+   "fieldname": "merchant_street_name",
+   "fieldtype": "Data",
+   "label": "Street Name"
+  },
+  {
+   "fieldname": "merchant_district_name",
+   "fieldtype": "Data",
+   "label": "District Name"
+  },
+  {
+   "fieldname": "merchant_unit_number",
+   "fieldtype": "Data",
+   "label": "Unit Number"
+  },
+  {
+   "fieldname": "postal_box_1",
+   "fieldtype": "Data",
+   "label": "Postal Box 1"
+  },
+  {
+   "fieldname": "postal_box_2",
+   "fieldtype": "Data",
+   "label": "Postal Box 2"
+  },
+  {
+   "fieldname": "fax",
+   "fieldtype": "Data",
+   "label": "FAX"
+  },
+  {
+   "fieldname": "telephone_1",
+   "fieldtype": "Data",
+   "label": "Telephone 1"
+  },
+  {
+   "fieldname": "user",
+   "fieldtype": "Link",
+   "label": "User",
+   "options": "User",
+   "read_only": 1
+  },
+  {
+   "fieldname": "company_representative_templete",
+   "fieldtype": "Link",
+   "label": "Company Representative Templete",
+   "options": "Company Representative Templete",
+   "reqd": 1
+  },
+  {
+   "fieldname": "signed_contract_section",
+   "fieldtype": "Section Break",
+   "label": "Signed Contract",
+   "read_only": 1
+  },
+  {
+   "fieldname": "signed_contract",
+   "fieldtype": "Attach",
+   "label": "Signed Contract",
+   "no_copy": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_qmhw",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_rjjq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "signed_contract_status",
+   "fieldtype": "Select",
+   "label": "Signed Contract Status",
+   "options": "\nPending\nAccepted\nRejected",
+   "read_only": 1
+  },
+  {
+   "depends_on": "eval:doc.signed_contract_status==\"Rejected\"",
+   "fieldname": "subject",
+   "fieldtype": "Data",
+   "label": "Subject",
+   "read_only": 1
+  },
+  {
+   "depends_on": "eval:doc.signed_contract_status==\"Rejected\"",
+   "fieldname": "message",
+   "fieldtype": "Small Text",
+   "label": "Message",
+   "read_only": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [
+  {
+   "link_doctype": "Merchant Contract Log",
+   "link_fieldname": "merchant_contract"
+  },
+  {
+   "link_doctype": "Merchant Subvention Agreement",
+   "link_fieldname": "merchant_contract"
+  }
+ ],
+ "modified": "2025-05-18 16:14:20.522092",
+ "modified_by": "Administrator",
+ "module": "Merchant Portal",
+ "name": "Merchant Contract",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "amend": 1,
+   "cancel": 1,
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "select": 1,
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  },
+  {
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Commercial  Officer",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Commercial Chief",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  },
+  {
+   "amend": 1,
+   "cancel": 1,
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Head of Commercial",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Merchant",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "permlevel": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Commercial  Officer",
+   "share": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "permlevel": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Commercial Chief",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "permlevel": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Head of Commercial",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "permlevel": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Risk Team",
+   "share": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Head of Finance",
+   "share": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Merchant Portal Admin",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Legal Officer",
+   "share": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "permlevel": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Risk Team",
+   "share": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "permlevel": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Head of Finance",
+   "share": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "permlevel": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Merchant Portal Admin",
+   "share": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "permlevel": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Legal Officer",
+   "share": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Accounts Manager",
+   "share": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [
+  {
+   "color": "Blue",
+   "title": "Pending"
+  },
+  {
+   "color": "Gray",
+   "title": "Sent To Merchant"
+  },
+  {
+   "color": "Orange",
+   "title": "Feedback Received"
+  },
+  {
+   "color": "Green",
+   "title": "Merchant Accepted"
+  },
+  {
+   "color": "Green",
+   "title": "Contracted"
+  },
+  {
+   "color": "Red",
+   "title": "Closed"
+  }
+ ]
+}

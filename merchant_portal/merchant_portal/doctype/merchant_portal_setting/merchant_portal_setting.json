@@ -1,0 +1,149 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-04-26 23:56:33.020192",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "controller_section",
+  "maintenance_mode",
+  "invoice_section",
+  "billing_fee_item",
+  "column_break_mrrt",
+  "billing_day",
+  "payment_terms_days",
+  "terms_and_conditions_section",
+  "terms_and_conditions_file",
+  "printing_section",
+  "invoice_print_format",
+  "invoice_mail_cc",
+  "letter_head",
+  "subject",
+  "mail_body"
+ ],
+ "fields": [
+  {
+   "fieldname": "invoice_section",
+   "fieldtype": "Section Break",
+   "label": "Invoice"
+  },
+  {
+   "fieldname": "billing_fee_item",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Billing Fee Item",
+   "options": "Item",
+   "reqd": 1
+  },
+  {
+   "default": "1",
+   "fieldname": "billing_day",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Billing Day",
+   "non_negative": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_mrrt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "payment_terms_days",
+   "fieldtype": "Int",
+   "label": "Payment Terms (Days)",
+   "non_negative": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "controller_section",
+   "fieldtype": "Section Break",
+   "label": "Controller"
+  },
+  {
+   "default": "0",
+   "fieldname": "maintenance_mode",
+   "fieldtype": "Check",
+   "label": "Maintenance Mode "
+  },
+  {
+   "fieldname": "terms_and_conditions_section",
+   "fieldtype": "Section Break",
+   "label": "Terms And Conditions"
+  },
+  {
+   "description": "PDF",
+   "fieldname": "terms_and_conditions_file",
+   "fieldtype": "Attach",
+   "label": "Terms And Conditions File",
+   "reqd": 1
+  },
+  {
+   "fieldname": "printing_section",
+   "fieldtype": "Section Break",
+   "label": "Printing"
+  },
+  {
+   "fieldname": "invoice_print_format",
+   "fieldtype": "Link",
+   "label": "Invoice Print Format",
+   "options": "Print Format"
+  },
+  {
+   "fieldname": "letter_head",
+   "fieldtype": "Link",
+   "label": "Letter Head",
+   "options": "Letter Head"
+  },
+  {
+   "default": "Tasheel Payment Request \u2013 Invoice for {{ invoice.posting_date.strftime('%m/%Y') }}",
+   "fieldname": "subject",
+   "fieldtype": "Data",
+   "label": "Subject"
+  },
+  {
+   "fieldname": "mail_body",
+   "fieldtype": "Text",
+   "label": "Mail Body"
+  },
+  {
+   "fieldname": "invoice_mail_cc",
+   "fieldtype": "Table",
+   "label": "Invoice Mail CC",
+   "options": "Mail CC"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2025-05-28 11:07:46.856355",
+ "modified_by": "Administrator",
+ "module": "Merchant Portal",
+ "name": "Merchant Portal Setting",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "Accounts Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

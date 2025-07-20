@@ -1,0 +1,153 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-04-20 16:20:59.987706",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "commercial_register",
+  "company_name",
+  "column_break_iozg",
+  "email",
+  "phone_number",
+  "section_break_yjzk",
+  "contract_start_date",
+  "subvention_rate",
+  "w4u_contract_id",
+  "billing_start_date",
+  "column_break_xwnm",
+  "contract_end_date",
+  "viban",
+  "contract_status",
+  "tenor",
+  "section_break_pwrh",
+  "status",
+  "error_message"
+ ],
+ "fields": [
+  {
+   "fieldname": "commercial_register",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Commercial Register",
+   "reqd": 1
+  },
+  {
+   "fieldname": "company_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Company Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_iozg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Email",
+   "reqd": 1
+  },
+  {
+   "fieldname": "phone_number",
+   "fieldtype": "Data",
+   "label": "Phone Number"
+  },
+  {
+   "fieldname": "section_break_yjzk",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "contract_start_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Contract Start Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "subvention_rate",
+   "fieldtype": "Float",
+   "label": "Subvention Rate"
+  },
+  {
+   "fieldname": "w4u_contract_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "W4u Contract ID",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_xwnm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "contract_end_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Contract End Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "viban",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Viban",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_pwrh",
+   "fieldtype": "Section Break"
+  },
+  {
+   "allow_on_submit": 1,
+   "default": "Pending",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "no_copy": 1,
+   "options": "Pending\nSuccess\nFailed",
+   "read_only": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "error_message",
+   "fieldtype": "Text",
+   "label": "Error Message",
+   "no_copy": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "contract_status",
+   "fieldtype": "Select",
+   "label": "Contract Status",
+   "options": "INACTIVE\nACTIVE"
+  },
+  {
+   "fieldname": "tenor",
+   "fieldtype": "Data",
+   "label": "Tenor"
+  },
+  {
+   "fieldname": "billing_start_date",
+   "fieldtype": "Date",
+   "label": "Billing Start Date"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-05-21 13:10:26.177544",
+ "modified_by": "Administrator",
+ "module": "Merchant Portal",
+ "name": "Merchant Upload Records",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

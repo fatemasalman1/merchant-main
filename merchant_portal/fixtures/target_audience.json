@@ -1,0 +1,44 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Target Audience",
+  "modified": "2024-09-22 10:02:34.378940",
+  "name": "Small Businesses",
+  "title": "Small Businesses"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Target Audience",
+  "modified": "2024-09-22 10:02:45.438731",
+  "name": "Medium Enterprises",
+  "title": "Medium Enterprises"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Target Audience",
+  "modified": "2024-09-22 10:02:58.708167",
+  "name": "Large Corporations",
+  "title": "Large Corporations"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Target Audience",
+  "modified": "2024-09-22 10:03:11.019740",
+  "name": "E-commerce",
+  "title": "E-commerce"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Target Audience",
+  "modified": "2024-09-22 10:03:19.343292",
+  "name": "Retail",
+  "title": "Retail"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Target Audience",
+  "modified": "2024-09-22 10:03:26.788446",
+  "name": "Hospitality",
+  "title": "Hospitality"
+ }
+]

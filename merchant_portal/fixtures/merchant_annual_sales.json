@@ -1,0 +1,66 @@
+[
+ {
+  "digit": 3,
+  "docstatus": 0,
+  "doctype": "Merchant Annual Sales",
+  "modified": "2024-12-08 02:05:40.377827",
+  "name": "Less than 1K",
+  "title": "Less than 1K"
+ },
+ {
+  "digit": 4,
+  "docstatus": 0,
+  "doctype": "Merchant Annual Sales",
+  "modified": "2024-12-08 02:06:00.731658",
+  "name": "1K – 10K",
+  "title": "1K – 10K"
+ },
+ {
+  "digit": 5,
+  "docstatus": 0,
+  "doctype": "Merchant Annual Sales",
+  "modified": "2024-12-08 02:06:46.842580",
+  "name": "10K – 100K",
+  "title": "10K – 100K"
+ },
+ {
+  "digit": 6,
+  "docstatus": 0,
+  "doctype": "Merchant Annual Sales",
+  "modified": "2024-12-08 02:07:19.418850",
+  "name": "100K – 1M",
+  "title": "100K – 1M"
+ },
+ {
+  "digit": 7,
+  "docstatus": 0,
+  "doctype": "Merchant Annual Sales",
+  "modified": "2024-12-08 02:07:05.915950",
+  "name": "1M – 10M",
+  "title": "1M – 10M"
+ },
+ {
+  "digit": 8,
+  "docstatus": 0,
+  "doctype": "Merchant Annual Sales",
+  "modified": "2024-12-08 02:07:30.770328",
+  "name": "10M – 100M",
+  "title": "10M – 100M"
+ },
+ {
+  "digit": 9,
+  "docstatus": 0,
+  "doctype": "Merchant Annual Sales",
+  "modified": "2024-12-08 02:07:38.207642",
+  "name": "100M – 1B",
+  "title": "100M – 1B"
+ },
+ {
+  "digit": 10,
+  "docstatus": 0,
+  "doctype": "Merchant Annual Sales",
+  "modified": "2024-12-08 02:07:46.780443",
+  "name": "1B and above",
+  "title": "1B and above"
+ }
+]

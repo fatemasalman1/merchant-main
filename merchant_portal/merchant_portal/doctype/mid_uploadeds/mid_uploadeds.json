@@ -1,0 +1,67 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-04-20 16:32:42.448090",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "mid",
+  "column_break_bjfs",
+  "contract",
+  "section_break_hakp",
+  "status",
+  "error_message"
+ ],
+ "fields": [
+  {
+   "fieldname": "column_break_bjfs",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "mid",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "MID",
+   "reqd": 1
+  },
+  {
+   "fieldname": "contract",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Contract",
+   "reqd": 1
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Status",
+   "options": "\nSuccess\nFailed",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_hakp",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "error_message",
+   "fieldtype": "Text",
+   "label": "Error Message",
+   "read_only": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-04-29 21:51:38.973281",
+ "modified_by": "Administrator",
+ "module": "Merchant Portal",
+ "name": "MID Uploadeds",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

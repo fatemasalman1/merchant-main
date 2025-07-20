@@ -1,0 +1,110 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-10-16 23:07:21.719021",
+  "name": "Waiting Legal Department",
+  "style": "",
+  "workflow_state_name": "Waiting Legal Department"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-10-16 23:29:49.769726",
+  "name": "Approved By Legal Department",
+  "style": "",
+  "workflow_state_name": "Approved By Legal Department"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-10-16 23:33:26.091575",
+  "name": "Approved By Sales",
+  "style": "",
+  "workflow_state_name": "Approved By Sales"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-10-17 02:52:37.304744",
+  "name": "Waiting Risk Team",
+  "style": "",
+  "workflow_state_name": "Waiting Risk Team"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-10-17 02:53:52.042600",
+  "name": "Approved By Risk Team",
+  "style": "",
+  "workflow_state_name": "Approved By Risk Team"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-10-01 23:31:54.206302",
+  "name": "Approved By Head Of Commercial",
+  "style": "Primary",
+  "workflow_state_name": "Approved By Head Of Commercial"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "remove",
+  "modified": "2024-09-16 08:34:19.747256",
+  "name": "Rejected",
+  "style": "Danger",
+  "workflow_state_name": "Rejected"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-10-01 23:32:23.819050",
+  "name": "Draft (Returned)",
+  "style": "Warning",
+  "workflow_state_name": "Draft (Returned)"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-09-29 18:05:50.134772",
+  "name": "Draft",
+  "style": "",
+  "workflow_state_name": "Draft"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "ok-sign",
+  "modified": "2024-09-16 08:34:19.746424",
+  "name": "Approved",
+  "style": "Success",
+  "workflow_state_name": "Approved"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-10-27 00:32:41.365725",
+  "name": "Closed",
+  "style": "Danger",
+  "workflow_state_name": "Closed"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "question-sign",
+  "modified": "2024-10-01 23:32:10.312228",
+  "name": "Pending",
+  "style": "Info",
+  "workflow_state_name": "Pending"
+ }
+]

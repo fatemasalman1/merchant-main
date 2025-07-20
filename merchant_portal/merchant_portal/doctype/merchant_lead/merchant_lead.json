@@ -1,0 +1,648 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:Lead-{email}-{#####}",
+ "creation": "2024-10-03 13:54:16.298445",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "status_section",
+  "status",
+  "failed_message",
+  "failed_number",
+  "section_1_section",
+  "email",
+  "email_verified",
+  "complete_1",
+  "column_break_nlob",
+  "company_name",
+  "otp",
+  "column_break_ngqq",
+  "full_name",
+  "section_2_section",
+  "type_of_business",
+  "business_category",
+  "has_sub",
+  "sub_category",
+  "business_starting_date",
+  "number_of_outlets",
+  "company_link",
+  "column_break_hwhd",
+  "service_type",
+  "merchant_ticket_size",
+  "annual_sales",
+  "annual_sales_digit",
+  "phone_number",
+  "postal_code",
+  "paid_amount",
+  "column_break_pysm",
+  "integration_q",
+  "co_markting_q",
+  "company_logo",
+  "commercial_register",
+  "commercial_register_status",
+  "complete_2",
+  "commercial_register_attach",
+  "wathq_status",
+  "section_3_section",
+  "active_zakat",
+  "zakat_attacment",
+  "complete",
+  "column_break_anid",
+  "active_vat",
+  "vat_attachment",
+  "column_break_xbak",
+  "iban",
+  "iban_number",
+  "national_id",
+  "merchant_representative_section",
+  "merchant_representative",
+  "column_break_zcrz",
+  "job_title",
+  "column_break_rpkg",
+  "wathq",
+  "section_break_ziln",
+  "amended_from",
+  "wathq_info_tab",
+  "response_code",
+  "response",
+  "response_json"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_ziln",
+   "fieldtype": "Section Break",
+   "permlevel": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Merchant Lead",
+   "permlevel": 1,
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "section_1_section",
+   "fieldtype": "Section Break",
+   "label": "Section (1)",
+   "permlevel": 1
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Email",
+   "options": "Email",
+   "permlevel": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "commercial_register",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Commercial Register",
+   "permlevel": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "phone_number",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Phone Number",
+   "permlevel": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "complete_1",
+   "fieldtype": "Check",
+   "hidden": 1,
+   "label": "Complete",
+   "permlevel": 1
+  },
+  {
+   "fieldname": "column_break_nlob",
+   "fieldtype": "Column Break",
+   "permlevel": 1
+  },
+  {
+   "fieldname": "column_break_ngqq",
+   "fieldtype": "Column Break",
+   "permlevel": 1
+  },
+  {
+   "fieldname": "section_2_section",
+   "fieldtype": "Section Break",
+   "label": "Section (2)",
+   "permlevel": 1
+  },
+  {
+   "fieldname": "company_name",
+   "fieldtype": "Data",
+   "label": "Company Name",
+   "permlevel": 1
+  },
+  {
+   "fieldname": "company_logo",
+   "fieldtype": "Attach",
+   "hidden": 1,
+   "label": "Company Logo",
+   "permlevel": 1
+  },
+  {
+   "fieldname": "column_break_pysm",
+   "fieldtype": "Column Break",
+   "permlevel": 1
+  },
+  {
+   "fieldname": "company_link",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Company Website (URL)",
+   "options": "URL",
+   "permlevel": 1
+  },
+  {
+   "fieldname": "column_break_hwhd",
+   "fieldtype": "Column Break",
+   "permlevel": 1
+  },
+  {
+   "fieldname": "type_of_business",
+   "fieldtype": "Link",
+   "label": "Type of Business",
+   "options": "Type of Business",
+   "permlevel": 1
+  },
+  {
+   "depends_on": "type_of_business",
+   "fieldname": "business_category",
+   "fieldtype": "Link",
+   "label": "Business Category",
+   "options": "Merchant Business Category",
+   "permlevel": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "has_sub",
+   "fieldtype": "Check",
+   "hidden": 1,
+   "label": "has sub",
+   "permlevel": 1,
+   "print_hide": 1,
+   "report_hide": 1
+  },
+  {
+   "fieldname": "service_type",
+   "fieldtype": "Table",
+   "label": "Service Type",
+   "options": "Service Type",
+   "permlevel": 1
+  },
+  {
+   "depends_on": "eval:doc.has_sub==1 && doc.type_of_business",
+   "fieldname": "sub_category",
+   "fieldtype": "Table",
+   "label": "Sub Category",
+   "options": "Registration Questionnaire Sub Category",
+   "permlevel": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "complete_2",
+   "fieldtype": "Check",
+   "hidden": 1,
+   "label": "Complete",
+   "permlevel": 1
+  },
+  {
+   "fieldname": "section_3_section",
+   "fieldtype": "Section Break",
+   "label": "Section (3)",
+   "permlevel": 1
+  },
+  {
+   "fieldname": "integration_q",
+   "fieldtype": "Select",
+   "hidden": 1,
+   "label": "Are you willing to integration?",
+   "options": "\nYes\nNo",
+   "permlevel": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "co_markting_q",
+   "fieldtype": "Select",
+   "hidden": 1,
+   "label": "Are you willing to Co-markting?",
+   "options": "\nYes\nNo",
+   "permlevel": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "annual_sales",
+   "fieldtype": "Data",
+   "label": "Annual Sales",
+   "permlevel": 1
+  },
+  {
+   "fetch_from": "annual_sales.digit",
+   "fieldname": "annual_sales_digit",
+   "fieldtype": "Int",
+   "hidden": 1,
+   "label": "Annual Sales Digit",
+   "permlevel": 1
+  },
+  {
+   "fieldname": "commercial_register_status",
+   "fieldtype": "Select",
+   "hidden": 1,
+   "label": "Commercial Register Status",
+   "options": "\nActive\nInactive",
+   "permlevel": 1
+  },
+  {
+   "fieldname": "column_break_anid",
+   "fieldtype": "Column Break",
+   "permlevel": 1
+  },
+  {
+   "fieldname": "business_starting_date",
+   "fieldtype": "Date",
+   "label": "Business Starting Date",
+   "permlevel": 1
+  },
+  {
+   "fieldname": "column_break_xbak",
+   "fieldtype": "Column Break",
+   "permlevel": 1
+  },
+  {
+   "fieldname": "merchant_ticket_size",
+   "fieldtype": "Currency",
+   "label": "Merchant Ticket Size",
+   "permlevel": 1
+  },
+  {
+   "fieldname": "number_of_outlets",
+   "fieldtype": "Int",
+   "label": "Number of Outlets",
+   "permlevel": 1
+  },
+  {
+   "fieldname": "iban",
+   "fieldtype": "Attach",
+   "hidden": 1,
+   "label": "IBAN",
+   "permlevel": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "active_zakat",
+   "fieldtype": "Check",
+   "hidden": 1,
+   "label": "Active Zakat ",
+   "permlevel": 1
+  },
+  {
+   "fieldname": "zakat_attacment",
+   "fieldtype": "Attach",
+   "hidden": 1,
+   "label": "Zakat Attacment",
+   "permlevel": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "active_vat",
+   "fieldtype": "Check",
+   "hidden": 1,
+   "label": "Active VAT",
+   "permlevel": 1
+  },
+  {
+   "fieldname": "vat_attachment",
+   "fieldtype": "Attach",
+   "hidden": 1,
+   "label": "VAT Attachment",
+   "permlevel": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "complete",
+   "fieldtype": "Check",
+   "hidden": 1,
+   "label": "Complete",
+   "permlevel": 1
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Full Name",
+   "permlevel": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "email_verified",
+   "fieldtype": "Check",
+   "label": "Email Verified",
+   "permlevel": 1
+  },
+  {
+   "fieldname": "national_id",
+   "fieldtype": "Attach",
+   "hidden": 1,
+   "label": "National Id",
+   "permlevel": 1
+  },
+  {
+   "fieldname": "status_section",
+   "fieldtype": "Section Break",
+   "label": "Status",
+   "permlevel": 1
+  },
+  {
+   "default": "View",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Status",
+   "options": "View\nScheduled\nFailed\nConvert to Registration",
+   "permlevel": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "commercial_register_attach",
+   "fieldtype": "Attach",
+   "hidden": 1,
+   "label": "Commercial Register Attach",
+   "permlevel": 1
+  },
+  {
+   "fieldname": "otp",
+   "fieldtype": "Data",
+   "label": "OTP",
+   "permlevel": 1
+  },
+  {
+   "fieldname": "iban_number",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "IBAN Number",
+   "read_only": 1
+  },
+  {
+   "fieldname": "postal_code",
+   "fieldtype": "Int",
+   "label": "Postal Code"
+  },
+  {
+   "fieldname": "wathq_status",
+   "fieldtype": "Select",
+   "label": "Wathq Status",
+   "options": "Pending\nSuccess\nFailed",
+   "read_only": 1
+  },
+  {
+   "fieldname": "wathq_info_tab",
+   "fieldtype": "Tab Break",
+   "label": "Wathq Info",
+   "read_only": 1
+  },
+  {
+   "fieldname": "response_code",
+   "fieldtype": "Data",
+   "label": "Response Code",
+   "read_only": 1
+  },
+  {
+   "fieldname": "response",
+   "fieldtype": "Long Text",
+   "label": "Response",
+   "read_only": 1
+  },
+  {
+   "fieldname": "response_json",
+   "fieldtype": "JSON",
+   "label": "Response Json"
+  },
+  {
+   "fieldname": "merchant_representative_section",
+   "fieldtype": "Section Break",
+   "label": "Merchant Representative"
+  },
+  {
+   "fieldname": "column_break_zcrz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "job_title",
+   "fieldtype": "Data",
+   "label": "Job Title",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_rpkg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "wathq",
+   "fieldtype": "Check",
+   "label": "Wathq",
+   "read_only": 1
+  },
+  {
+   "fieldname": "merchant_representative",
+   "fieldtype": "Data",
+   "label": "Merchant Representative",
+   "read_only": 1
+  },
+  {
+   "depends_on": "eval:doc.status==\"Failed\"",
+   "fieldname": "failed_message",
+   "fieldtype": "Text",
+   "label": "Failed Message ",
+   "read_only": 1
+  },
+  {
+   "depends_on": "eval:doc.status==\"Failed\"",
+   "fieldname": "failed_number",
+   "fieldtype": "Data",
+   "label": "Failed Number",
+   "read_only": 1
+  },
+  {
+   "fieldname": "paid_amount",
+   "fieldtype": "Currency",
+   "label": "Paid Amount"
+  }
+ ],
+ "grid_page_length": 50,
+ "in_create": 1,
+ "index_web_pages_for_search": 1,
+ "links": [
+  {
+   "link_doctype": "Registration Questionnaire",
+   "link_fieldname": "merchant_lead"
+  }
+ ],
+ "modified": "2025-05-14 14:26:24.326064",
+ "modified_by": "Administrator",
+ "module": "Merchant Portal",
+ "name": "Merchant Lead",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "select": 1,
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "if_owner": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Guest",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Commercial  Officer",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "permlevel": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Commercial  Officer",
+   "share": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "permlevel": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Head of Commercial",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "permlevel": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Head of Commercial",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "permlevel": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Guest",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Merchant Portal Admin",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Commercial Chief",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "permlevel": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Commercial Chief",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [
+  {
+   "color": "Blue",
+   "title": "View"
+  },
+  {
+   "color": "Yellow",
+   "title": "Scheduled"
+  },
+  {
+   "color": "Red",
+   "title": "Failed"
+  },
+  {
+   "color": "Green",
+   "title": "Convert to Registration"
+  }
+ ],
+ "track_changes": 1,
+ "track_seen": 1
+}

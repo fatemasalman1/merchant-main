@@ -1,0 +1,86 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-02-01 22:58:17.211675",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "mid",
+  "branch",
+  "column_break_dwcz",
+  "status"
+ ],
+ "fields": [
+  {
+   "allow_on_submit": 1,
+   "columns": 3,
+   "fieldname": "mid",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "MID"
+  },
+  {
+   "fieldname": "column_break_dwcz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "allow_on_submit": 1,
+   "columns": 2,
+   "default": "Pending",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Status",
+   "options": "Pending\nFailed\nDisabled\nDisable Requested\nReactive Requested\nActive\nRemoved Requested",
+   "read_only": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "branch",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Branch",
+   "read_only": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "in_create": 1,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-05-13 17:35:09.236328",
+ "modified_by": "Administrator",
+ "module": "Merchant Portal",
+ "name": "Merchant ID",
+ "owner": "Administrator",
+ "permissions": [],
+ "search_fields": "mid",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [
+  {
+   "color": "Blue",
+   "title": "Pending"
+  },
+  {
+   "color": "Red",
+   "title": "Failed"
+  },
+  {
+   "color": "Green",
+   "title": "Active"
+  },
+  {
+   "color": "Yellow",
+   "title": "Suspended"
+  }
+ ],
+ "track_changes": 1
+}
